@@ -12,6 +12,22 @@ let colors = [
 ['b', 'r', 'y']
 ]
 
+//create matrix
+let foo = Array.from({ length: 5 }, () => Array.from({ length: 5 }, () => Math.floor(Math.random() * 4)));
+
+
+
+createMatrix = (rows, col) => {
+    let foo = Array.from({ length: rows }, () => Array.from({ length: col }, () => Math.floor(Math.random() * 4)));
+    return foo;
+}
+
+// console.log('foo', foo);
+// console.log('myArr', myArr);
+
+let bar = createMatrix(5, 5);
+console.log(bar);
+
 
 getNeighbors = (arr, row, col) => {
     const neighbors = [];
@@ -46,4 +62,4 @@ getRowsAmount = (arr) => {
 }
 
 
-getNeighbors(colors,1,1);
+// getNeighbors(colors,1,1);
