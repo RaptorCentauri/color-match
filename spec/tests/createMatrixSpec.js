@@ -6,16 +6,7 @@ describe('createMatrix', () => {
     let range = 4;
 
     let testMatrix = createMatrix(rows, cols, range);
-
-    let isBelowThreshold = (val, range = range) => val <= range;
     
-    let checkForValues = (arr) => {
-        for (let i of arr) {
-            if (!i.some(isBelowThreshold)) return false;
-        }
-        return true
-    }
-
     it('should return an array', () => {
         expect(
             Array.isArray(testMatrix)
@@ -30,13 +21,19 @@ describe('createMatrix', () => {
 
     it(`should have ${cols} columns`, () => {
         expect(
-            testMatrix[0].length
-        ).toEqual(cols);
+            testMatrix.some((row) => row.length == cols)
+        ).toEqual(true);
     });
 
-    it(`should have no index with a value greater than ${range}`, () => {
+    it(`should have no index with a value greater than ${range}` , () => {
         expect(
-                checkForValues(testMatrix)
+            testMatrix.some((row) => row.some((element) => element <= range))
+        ).toEqual(true);
+    });
+
+    it(`should have no index with a value less than 0`, () => {
+        expect(
+            testMatrix.some((row) => row.some((element) => element >= 0))
         ).toEqual(true);
     });
 
