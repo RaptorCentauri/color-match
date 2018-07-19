@@ -1,6 +1,7 @@
-const createMatrix = (rows, col) => {
-    let foo = Array.from({ length: rows }, () => Array.from({ length: col }, () => Math.floor(Math.random() * 4)));
-    return foo;
-}
+const createMatrix = (rows, col, range) => 
+    Array.from({ length: rows }, () => Array.from({ length: col }, () => Math.floor(Math.random() * range)));
+    
+    // return foo;
+
 
 export default createMatrix

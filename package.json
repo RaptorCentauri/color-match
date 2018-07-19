@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node spec/run.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.9.2",
+    "npm": "^6.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
