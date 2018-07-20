@@ -8,7 +8,14 @@ describe('getNeighbors', () => {
 
     let testMatrix = createMatrix(rows, cols, range);
 
+    let pos = {
+        row: 2,
+        col: 1
+    }
 
+    let moo = testMatrix.getNeighbors(pos)
+     console.log(moo);
+     
 
 
     it(`should have no index with a value less than 0`, () => {

@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './index.scss'
 import Square from './components/square/square.jsx';
 import createMatrix from '../gameLogic/createMatrix';
+import getNeighbors from '../gameLogic/getNeighbors';
 
 class App extends React.Component {
     state = {
@@ -12,6 +13,7 @@ class App extends React.Component {
 
     handleSquareClick = () => {
         console.log('clicked');
+
     }
 
     drawGameBoard = (arr) => {
