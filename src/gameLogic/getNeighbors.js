@@ -9,7 +9,7 @@ It returns a Map that contains following: [{row: number, col: number}, value] fo
 const getNeighbors = Object.defineProperty(Array.prototype, 'getNeighbors', {
     value(obj) {
         try {
-            if (typeof(obj) != 'object') throw 'getNeighbors expects an object!'  
+            if (typeof(obj) != 'object') throw new Error('getNeighbors expects an object!')  
 
             if (typeof (obj.row) != 'number') throw 'getNeighbors expects an obj.row to be a number!'
 
@@ -37,8 +37,9 @@ const getNeighbors = Object.defineProperty(Array.prototype, 'getNeighbors', {
         
         return neighbors
 
-        } catch (error) {
-            console.error(`Error: ${error}`);
+        } catch (e) {
+            console.error(`${e}`);
+            // throw new Error(error)
         }
     }
 });

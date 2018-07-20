@@ -13,15 +13,25 @@ describe('getNeighbors', () => {
         col: 1
     }
 
-    let moo = testMatrix.getNeighbors(pos)
-     console.log(moo);
+    let str = 'str';
+
+    let moo = testMatrix.getNeighbors(str)
+     console.log(moo.size);
      
 
 
-    it(`should have no index with a value less than 0`, () => {
+    it(`should return a map with a size of 4 or less`, () => {
         expect(
-            testMatrix.some((row) => row.some((element) => element >= 0))
+            testMatrix.getNeighbors(pos).size <= 4
         ).toEqual(true);
     });
 
+    it(`should throw an error if given type of other than an object`, () => {
+        expect(
+            testMatrix.getNeighbors(str)
+        ).toThrowError('getNeighbors expects an object!');
+    });
+
 });
+
+
