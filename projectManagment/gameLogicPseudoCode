@@ -3,7 +3,7 @@ Each square of grid is filled with a random value in a given range;
 
 USER WILL CLICK ON A SQUARE
 
-We get the value of the square and save it.
+We get the value of the square and save it. 
 We get the position of the square in the grid and save it.
 We find the neighbors of the selected square.
 For any neighbor that has a value equal to our initial value, we get and save its position.
@@ -21,4 +21,8 @@ Get the neighbor of every square
 if no square has a neighbor with a value equal to itself, the game is over.
 
 
-1. createMatrix(row, col, range).
+need functions to:
+createMatrix DONE!
+getValue DONE!
+getNeigbors DONE!
+deleteValue DONE!

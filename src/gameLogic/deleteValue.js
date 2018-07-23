@@ -1,5 +1,5 @@
 
-const getValue = Object.defineProperty(Array.prototype, 'getValue', {
+const deleteValue = Object.defineProperty(Array.prototype, 'deleteValue', {
     value(obj) {
         try {
             if (typeof(obj) != 'object') throw new TypeError('getNeighbors expects an object!')
@@ -18,9 +18,7 @@ const getValue = Object.defineProperty(Array.prototype, 'getValue', {
 
             if (Object.keys(obj).length != 2) throw 'getNeighbors expects an object with only 2 keys: row & col!'
 
-        const value = this[obj.row][obj.col]
-
-        return value
+        delete this[obj.row][obj.col];
 
         } catch (e) {
             throw e
@@ -28,4 +26,4 @@ const getValue = Object.defineProperty(Array.prototype, 'getValue', {
     }
 });
 
-export default getValue;
+export default deleteValue;
