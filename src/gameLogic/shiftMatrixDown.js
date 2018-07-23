@@ -6,21 +6,20 @@ const shiftMatrixDown = Object.defineProperty(Array.prototype, 'shiftMatrixDown'
     value() {
         try {
             for (let i = 0; i < this.length; i++) {
-                let checkRowVal = (this.length-1)-i;
-                let newRowVal = checkRowVal-1;
+                let checkRowIndex = (this.length-1)-i; 
+                let rowAboveIndex = checkRowIndex-1;
 
-                let checkRow = this[checkRowVal];
-                let newRow = this[newRowVal];
+                let checkRow = this[checkRowIndex];
+                let rowAbove = this[rowAboveIndex];
 
-                if (checkRowVal > 0) {
-
+                if (checkRowIndex > 0) {
                     for (let k = 0; k < checkRow.length; k++) {
-                        let checkPos = checkRow[k]
+                        let positionToEval = checkRow[k]
 
-                        if (checkPos === undefined) {
-                            let newValue = this[newRowVal][k];
-                            this[checkRowVal][k] = newValue;
-                            delete newRow[k];
+                        if (positionToEval === undefined) {
+                            let newValue = this[rowAboveIndex][k];
+                            this[checkRowIndex][k] = newValue;
+                            delete rowAbove[k];
                         }
                     }
                 }
