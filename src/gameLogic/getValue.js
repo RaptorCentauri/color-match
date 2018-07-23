@@ -1,38 +1,44 @@
-import getNeighbors from "./getNeighbors";
-import createMatrix from "./createMatrix";
+
+const getValue = Object.defineProperty(Array.prototype, 'getValue', {
+    value(obj) {
+        try {
+            if (typeof(obj) != 'object') throw new TypeError('getNeighbors expects an object!')
+            
+            if(!obj.hasOwnProperty('row')) throw new ReferenceError('getNeighbors expects a row property!')
+
+            if (!obj.hasOwnProperty('col')) throw  new ReferenceError('getNeighbors expects a col property!')
+
+            if (typeof (obj.row) != 'number') throw new TypeError('getNeighbors expects an obj.row to be a number!')
+
+            if (typeof (obj.col) != 'number') throw new TypeError('getNeighbors expects an obj.col to be a number!')
+
+            if (obj.row > this.length) throw new RangeError(`Attmpted to call getNeighbors with a row value of ${obj.row}! ${this.constructor.name} only has ${this.length} rows!`)
+
+            if (obj.col > this[0].length) throw new RangeError(`Attmpted to call getNeighbors with a col value of ${obj.col}! ${this.constructor.name} only has ${this.length} col!`) // need find longest col
 
 
-// getValue = (arr, row, col) => {
-//     let val = arr[row][col];
-//     console.log('val', val);
-// }
+            if (Object.keys(obj).length != 2) throw 'getNeighbors expects an object with only 2 keys: row & col!'
 
-// getValue = () => {
-//     // return 'an error is here';
-//     // throw 'nope!'
-//     try {
-//         if(true) throw new Error('foo bar')
-//     } catch (error) {
-//         throw error
-//         // throw new Error(error)
-//     }
-// }
+        const value = this[obj.row][obj.col]
 
-// let bar = getValue();
+        // //north neighbor
+        // if ((obj.row - 1) >= 0) neighbors.set({row: obj.row-1, col: obj.col}, this[obj.row - 1][obj.col])
 
-let rows = 5;
-let cols = 5;
-let range = 4;
+        // //south neighbor
+        // if ((obj.row + 1) <= (this.length - 1)) neighbors.set({row:obj.row+1, col:obj.col}, this[obj.row + 1][obj.col])
 
-let testMatrix = createMatrix(rows, cols, range);
+        // //east neighbor
+        // if ((obj.col + 1) <= (this[obj.row].length - 1)) neighbors.set({row:obj.row, col:obj.col+1}, this[obj.row][obj.col + 1])
 
-let pos = {
-    row: 2,
-    col: 1
-}
+        // //west neighbor
+        // if ((obj.col - 1) >= 0) neighbors.set({row:obj.row, col:obj.col-1}, this[obj.row][obj.col - 1])
+        
+        return value
 
-let str= 'string';
+        } catch (e) {
+            throw e
+        }
+    }
+});
 
-let bar = testMatrix.getNeighbors(str)
-
-console.log(bar);
+export default getValue;

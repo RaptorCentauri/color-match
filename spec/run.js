@@ -7,7 +7,7 @@ let TestsReporter = require('jasmine2-reporter').Jasmine2Reporter,
     options = {
         suiteDuration: true,
         failuresSummary: false,
-        summary:false,
+        summary:true,
         // indent: '\t'
     };
 
