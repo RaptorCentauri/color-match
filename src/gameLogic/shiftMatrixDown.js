@@ -1,7 +1,6 @@
 /*
 shiftMatrixDown will move any all indeces down vertically as long as there is an empty spot
 */
-
 const shiftMatrixDown = Object.defineProperty(Array.prototype, 'shiftMatrixDown', {
     value() {
         try {
