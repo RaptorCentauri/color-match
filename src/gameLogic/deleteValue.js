@@ -18,7 +18,7 @@ const deleteValue = Object.defineProperty(Array.prototype, 'deleteValue', {
 
             if (Object.keys(obj).length != 2) throw 'getNeighbors expects an object with only 2 keys: row & col!'
 
-        delete this[obj.row][obj.col];
+        this[obj.row][obj.col] = null;
 
         } catch (e) {
             throw e
