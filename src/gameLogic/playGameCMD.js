@@ -9,37 +9,60 @@ import deleteValue from './deleteValue'
 
 var inquirer = require('inquirer');
 
-
+/**
+ * playChain() pseudocode
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+// let toBeDestroyed = new Set();
 
 let playChain = (arr, pos) => {
     let toBeDestroyed = new Set();
+
     toBeDestroyed.add(pos);
+
+    let loopSet = new Set()
+    loopSet.clear()
 
     let targetValue = arr.getValue(pos);
 
     //getNeighbors
-    let targetNeighbors = newBoard.getNeighbors(pos);
+    let targetNeighbors = arr.getNeighbors(pos);
     
+    //if any neighbor has targetValue, put it in the toBeDestroyed set
     for (const [newPos, value] of targetNeighbors) {
         if (value === targetValue) {
-            console.log('v: ', value , '| tv: ', targetValue);
             toBeDestroyed.add(newPos);
+            loopSet.add(newPos);
         }
     }
 
-    toBeDestroyed.forEach(item => {
-        // console.log('setItem', item);
-        playChain(arr, item)
+    console.log('loopSize', loopSet.size);
+    
 
-    })
-
-
-    // console.log('set', toBeDestroyed);
+    if(loopSet.size > 0) {    
+        loopSet.forEach((item)=>{
+            if (!toBeDestroyed.has(item)) {
+                console.log('exists', item);
+                return playChain(arr, item);
+            }
+            else{
+                console.log('NOT', item);
+            }
+        })
+    }
+    else{
+        console.log('leaving func!');
+        return toBeDestroyed;
+    }
 
 }
 
 
-let pseudoClick = () => {
+let pseudoClick = (arr) => {
     inquirer.prompt([{type: 'input', name: 'row'},{type: 'input', name: 'col'}]).then(answers => {
         let targetPos ={}
 
@@ -54,14 +77,23 @@ let pseudoClick = () => {
         // let targetNeighbors = newBoard.getNeighbors(targetPos);
         
         // playChain(targetNeighbors, squarestoKill, targetValue, newBoard);
-        playChain(newBoard, targetPos);
+        let chain = playChain(arr, targetPos);
+
+        console.log('chain', chain.size);
+        
     });
 }
 
 
 
 
-
+let myBoard = [
+[ 1, 1, 0, 1, 1 ],
+[ 1, 1, 0, 1, 1 ],
+[ 0, 0, 0, 0, 0 ],
+[ 1, 1, 0, 1, 1 ],
+[ 1, 1, 0, 1, 1 ],
+]
 
 let showBoard = (arr) => {
     arr.forEach(row => {
@@ -71,7 +103,7 @@ let showBoard = (arr) => {
 }
 
 
-let newBoard = createMatrix(5,5);
+// let newBoard = createMatrix(5,5);
 
 // console.log('create an empty board');
 // console.log('******************************');
@@ -81,10 +113,10 @@ let newBoard = createMatrix(5,5);
 // console.log('fill the board');
 console.log('******************************');
 
-newBoard.fillMatrix(5)
-showBoard(newBoard);
+// newBoard.fillMatrix(5)
+showBoard(myBoard);
 
-pseudoClick();
+pseudoClick(myBoard);
 
 
 
