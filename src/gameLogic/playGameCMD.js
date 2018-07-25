@@ -4,62 +4,63 @@ import getValue from './getValue'
 import getNeighbors from './getNeighbors'
 import deleteValue from './deleteValue'
 
-
-
-
 var inquirer = require('inquirer');
 
-/**
- * playChain() pseudocode
- * 
- * 
- * 
- * 
- * 
- */
-// let toBeDestroyed = new Set();
+
+let toBeDestroyed = new Set();
+
+let alreadyChecked = new Set();
 
 let playChain = (arr, pos) => {
-    let toBeDestroyed = new Set();
-
-    toBeDestroyed.add(pos);
-
-    let loopSet = new Set()
-    loopSet.clear()
-
-    let targetValue = arr.getValue(pos);
-
-    //getNeighbors
-    let targetNeighbors = arr.getNeighbors(pos);
-    
-    //if any neighbor has targetValue, put it in the toBeDestroyed set
-    for (const [newPos, value] of targetNeighbors) {
-        if (value === targetValue) {
-            toBeDestroyed.add(newPos);
-            loopSet.add(newPos);
-        }
-    }
-
-    console.log('loopSize', loopSet.size);
-    
-
-    if(loopSet.size > 0) {    
-        loopSet.forEach((item)=>{
-            if (!toBeDestroyed.has(item)) {
-                console.log('exists', item);
-                return playChain(arr, item);
-            }
-            else{
-                console.log('NOT', item);
-            }
-        })
+    //has it been evaluated
+    if (alreadyChecked.has(pos)){
+        console.log('tbd-size: ', toBeDestroyed.size);
+        // return 'function is over'
     }
     else{
-        console.log('leaving func!');
-        return toBeDestroyed;
+        console.log('look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+        
+                        //set of all items to be destroyed;
+                        toBeDestroyed.add(pos);
+                        let loopSet = new Set()
+                        // loopSet.clear()
+
+                        let targetValue = arr.getValue(pos);
+
+                        //getNeighbors
+                        let targetNeighbors = arr.getNeighbors(pos);
+
+                        //store the fact that we got neighbors
+                        alreadyChecked.add(pos)
+
+                        
+                        //if any neighbor has targetValue, put it in the toBeDestroyed set and a local loopSet
+                        for (const [newPos, value] of targetNeighbors) {
+                            if (value === targetValue) {
+                                toBeDestroyed.add(newPos);
+                                loopSet.add(newPos);
+                            }
+                        }
+
+                        //go over the local loopSet
+                        if(loopSet.size > 0) {
+                            console.log('running a loop!');
+                            loopSet.forEach((item)=>{
+                                console.log('loop log');
+                                if(!alreadyChecked.has(item)){
+                                    console.log(`playChain(${item.row}, ${item.col}) `);
+                                    // console.log(item);
+                                    
+                                    playChain(arr, item);
+                                }
+                            })
+                        }
+             
     }
 
 }
+
+
 
 
 let pseudoClick = (arr) => {
@@ -79,11 +80,10 @@ let pseudoClick = (arr) => {
         // playChain(targetNeighbors, squarestoKill, targetValue, newBoard);
         let chain = playChain(arr, targetPos);
 
-        console.log('chain', chain.size);
+        // console.log('chain', chain);
         
     });
 }
-
 
 
 
