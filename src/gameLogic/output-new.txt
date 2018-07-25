@@ -26,48 +26,21 @@
 ====================================
 ? row: [7D[7C[2K[G? row: 2[8D[8C[2K[G? row: 2[8D[8C
 ? col: [7D[7C[2K[G? col: 2[8D[8C[2K[G? col: 2[8D[8C
-Start of Function: Row: 2, Col: 2
-====================/============
-alreadyValuesLength 1
-tbd 1
-================================
-Start of Function: Row: 1, Col: 2
-====================/============
-alreadyValuesLength 2
-tbd 2
-================================
-Start of Function: Row: 0, Col: 2
-====================/============
-alreadyValuesLength 3
-tbd 3
-================================
-Start of Function: Row: 3, Col: 2
-====================/============
-alreadyValuesLength 4
-tbd 4
-================================
-Start of Function: Row: 4, Col: 2
-====================/============
-alreadyValuesLength 5
-tbd 5
-================================
-Start of Function: Row: 2, Col: 3
-====================/============
-alreadyValuesLength 6
-tbd 6
-================================
-Start of Function: Row: 2, Col: 4
-====================/============
-alreadyValuesLength 7
-tbd 7
-================================
-Start of Function: Row: 2, Col: 1
-====================/============
-alreadyValuesLength 8
-tbd 8
-================================
-Start of Function: Row: 2, Col: 0
-====================/============
-alreadyValuesLength 9
-tbd 9
-================================
+running playChain
+ELSE tbd-values:  [Set Iterator] {  }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12 }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12, 7 }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12, 7, 2 }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12, 7, 2, 17 }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12, 7, 2, 17, 22 }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12, 7, 2, 17, 22, 13 }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12, 7, 2, 17, 22, 13, 14 }
+running playChain
+ELSE tbd-values:  [Set Iterator] { 12, 7, 2, 17, 22, 13, 14, 11 }

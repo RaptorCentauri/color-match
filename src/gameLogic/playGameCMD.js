@@ -13,22 +13,18 @@ let alreadyChecked = new Set()
 
 let playChain = (arr, pos) => {
     let targetValue = arr.getValue(pos);
+    console.log('running playChain');
 
     if (alreadyChecked.has(targetValue.id)){
-        console.log('tbd-size: ', toBeDestroyed.size);
+        console.log('giraffe');
     }
     else{
+        console.log('ELSE tbd-values: ', toBeDestroyed.values());
+
+        
         let loopSet = []
         alreadyChecked.add(targetValue.id)
         toBeDestroyed.add(targetValue.id);
-
-console.log(`Start of Function: Row: ${pos.row}, Col: ${pos.col}`);
-console.log('====================/============');
-console.log('alreadyValuesLength', alreadyChecked.size);
-console.log('tbd', toBeDestroyed.size);
-console.log('================================');
-
-        
 
         //getNeighbors
         let targetNeighbors = arr.getNeighbors(pos);
@@ -40,17 +36,12 @@ console.log('================================');
         }
 
         loopSet.forEach((item)=>{
-            // console.log('item', item);
-            
             if(!alreadyChecked.has(item.id)){
                 playChain(arr, item.pos);
             }
         })
-  
-
-        }
-
     }
+}
 
 
 
