@@ -11,29 +11,33 @@ let toBeDestroyed = new Set();
 
 let alreadyChecked = new Set();
 
+//give id to each index
+
 let playChain = (arr, pos) => {
     //has it been evaluated
-    if (alreadyChecked.has(pos)){
+    if (pos in alreadyChecked === true){
         console.log('tbd-size: ', toBeDestroyed.size);
         // return 'function is over'
     }
     else{
-        console.log('look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
-        
+        console.log(`Start of Function: Row: ${pos.row}, Col: ${pos.col}`);
+                        console.log('alreadyValues===================');
+                        console.log(alreadyChecked.values());
+                        console.log('================================');
+
+                        
+
                         //set of all items to be destroyed;
                         toBeDestroyed.add(pos);
                         let loopSet = new Set()
-                        // loopSet.clear()
 
                         let targetValue = arr.getValue(pos);
 
                         //getNeighbors
                         let targetNeighbors = arr.getNeighbors(pos);
 
-                        //store the fact that we got neighbors
                         alreadyChecked.add(pos)
 
-                        
                         //if any neighbor has targetValue, put it in the toBeDestroyed set and a local loopSet
                         for (const [newPos, value] of targetNeighbors) {
                             if (value === targetValue) {
@@ -42,17 +46,22 @@ let playChain = (arr, pos) => {
                             }
                         }
 
+                        console.log('alreadySize', alreadyChecked.size);
+
                         //go over the local loopSet
                         if(loopSet.size > 0) {
-                            console.log('running a loop!');
                             loopSet.forEach((item)=>{
-                                console.log('loop log');
-                                if(!alreadyChecked.has(item)){
-                                    console.log(`playChain(${item.row}, ${item.col}) `);
-                                    // console.log(item);
-                                    
-                                    playChain(arr, item);
-                                }
+                                //check if item is equal to one of the values in alreadyChecked
+                                    if(item in alreadyChecked === false){
+                                        console.log(`playChain(${item.row}, ${item.col}) `);
+                                        playChain(arr, item);
+                                    }
+                  
+                                })
+
+
+
+
                             })
                         }
              

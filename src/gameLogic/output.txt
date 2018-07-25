@@ -1,0 +1,4347 @@
+******************************
+[ 1, 1, 0, 1, 1 ]
+[ 1, 1, 0, 1, 1 ]
+[ 0, 0, 0, 0, 0 ]
+[ 1, 1, 0, 1, 1 ]
+[ 1, 1, 0, 1, 1 ]
+====================================
+? row: [7D[7C[2K[G? row: 2[8D[8C[2K[G? row: 2[8D[8C
+? col: [7D[7C[2K[G? col: 2[8D[8C[2K[G? col: 2[8D[8C
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 2
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 3
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 4
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 5
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 6
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 7
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 8
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 9
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 10
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 11
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 12
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 13
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 14
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 15
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 16
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 17
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 18
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 19
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 20
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 21
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 22
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 23
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 24
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 25
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 26
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 27
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 28
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 29
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 30
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 31
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 32
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 33
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 34
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 35
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 36
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 37
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 38
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 39
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 40
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 41
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 42
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 43
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 44
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 45
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 46
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 47
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 48
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 49
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 50
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 51
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 52
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 53
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 54
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 55
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 56
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 57
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 58
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 59
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 60
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 61
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 62
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 63
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 64
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 65
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 66
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 67
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 68
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 69
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 70
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 71
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 72
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 73
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 74
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 75
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 76
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 77
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 78
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 79
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 80
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 81
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 82
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 83
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 84
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 85
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 86
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 87
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 88
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 89
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 90
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 91
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 92
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 93
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 94
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 95
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 96
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 97
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 98
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 99
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 100
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 101
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 102
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 103
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 104
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 105
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 106
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 107
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 108
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 109
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 110
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 111
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 112
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 113
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 114
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 115
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 116
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 117
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 118
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 119
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 120
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 121
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 122
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 123
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 124
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 125
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 126
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 127
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 128
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 129
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 130
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 131
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 132
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 133
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 134
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 135
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 136
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 137
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 138
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 139
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 140
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 141
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 142
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 143
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 144
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 145
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 146
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 147
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 148
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 149
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 150
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 151
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 152
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 153
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 154
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 155
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 156
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 157
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 158
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 159
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 160
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 161
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 162
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 163
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 164
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 165
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 166
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 167
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 168
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 169
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 170
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 171
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 172
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 173
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 174
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 175
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 176
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 177
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 178
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 179
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 180
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 181
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 182
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 183
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 184
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 185
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 186
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 187
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 188
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 189
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 190
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 191
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 192
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 193
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 194
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 195
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 196
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 197
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 198
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 199
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 200
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 201
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 202
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 203
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 204
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 205
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 206
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 207
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 208
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 209
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 210
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 211
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 212
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 213
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 214
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 215
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 216
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 217
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 218
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 219
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 220
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 221
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 222
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 223
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 224
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 225
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 226
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 227
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 228
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 229
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 230
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 231
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 232
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 233
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 234
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 235
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 236
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 237
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 238
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 239
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 240
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 241
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 242
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 243
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 244
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 245
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 246
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 247
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 248
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 249
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 250
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 251
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 252
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 253
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 254
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 255
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 256
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 257
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 258
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 259
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 260
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 261
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 262
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 263
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 264
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 265
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 266
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 267
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 268
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 269
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 270
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 271
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 272
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 273
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 274
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 275
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 276
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 277
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 278
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 279
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 280
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 281
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 282
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 283
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 284
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 285
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 286
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 287
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 288
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 289
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 290
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 291
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 292
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 293
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 294
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 295
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 296
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 297
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 298
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 299
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 300
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 301
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 302
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 303
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 304
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 305
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 306
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 307
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 308
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 309
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 310
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 311
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 312
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 313
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 314
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 315
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 316
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 317
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 318
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 319
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 320
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 321
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 322
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 323
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 324
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 325
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 326
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 327
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 328
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 329
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 330
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 331
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 332
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 333
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 334
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 335
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 336
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 337
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 338
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 339
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 340
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 341
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 342
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 343
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 344
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 345
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 346
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 347
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 348
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 349
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 350
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 351
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 352
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 353
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 354
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 355
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 356
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 357
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 358
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 359
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 360
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 361
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 362
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 363
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 364
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 365
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 366
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 367
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 368
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 369
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 370
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 371
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 372
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 373
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 374
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 375
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 376
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 377
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 378
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 379
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 380
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 381
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 382
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 383
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 384
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 385
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 386
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 387
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 388
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 389
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 390
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 391
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 392
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 393
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 394
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 395
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 396
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 397
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 398
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 399
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 400
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 401
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 402
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 403
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 404
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 405
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 406
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 407
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 408
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 409
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 410
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 411
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 412
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 413
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 414
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 415
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 416
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 417
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 418
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 419
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 420
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 421
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 422
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 423
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 424
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 425
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 426
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 427
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 428
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 429
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 430
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 431
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 432
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 433
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 434
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 435
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 436
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 437
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 438
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 439
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 440
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 441
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 442
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 443
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 444
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 445
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 446
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 447
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 448
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 449
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 450
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 451
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 452
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 453
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 454
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 455
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 456
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 457
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 458
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 459
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 460
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 461
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 462
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 463
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 464
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 465
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 466
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 467
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 468
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 469
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 470
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 471
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 472
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 473
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 474
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 475
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 476
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 477
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 478
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 479
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 480
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 481
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 482
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 483
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 484
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 485
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 486
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 487
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 488
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 489
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 490
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 491
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 492
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 493
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 494
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 495
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 496
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 497
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 498
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 499
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 500
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 501
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 502
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 503
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 504
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 505
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 506
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 507
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 508
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 509
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 510
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 511
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 512
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 513
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 514
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 515
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 516
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 517
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 518
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 519
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 520
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 521
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 522
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 523
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 524
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 525
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 526
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 527
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 528
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 529
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 530
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 531
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 532
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 533
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 534
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 535
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 536
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 537
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 538
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 539
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 540
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 541
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 542
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 543
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 544
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 545
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 546
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 547
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 548
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 549
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 550
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 551
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 552
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 553
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 554
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 555
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 556
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 557
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 558
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 559
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 560
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 561
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 562
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 563
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 564
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 565
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 566
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 567
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 568
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 569
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 570
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 571
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 572
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 573
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 574
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 575
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 576
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 577
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 578
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 579
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 580
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 581
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 582
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 583
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 584
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 585
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 586
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 587
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 588
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 589
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 590
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 591
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 592
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 593
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 594
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 595
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 596
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 597
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 598
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 599
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 600
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 601
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 602
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 603
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 604
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 605
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 606
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 607
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 608
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 609
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 610
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 611
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 612
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 613
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 614
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 615
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 616
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 617
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 618
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 619
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 620
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 621
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 622
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 623
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 624
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 625
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 626
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 627
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 628
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 629
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 630
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 631
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 632
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 633
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 634
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 635
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 636
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 637
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 638
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 639
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 640
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 641
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 642
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 643
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 644
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 645
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 646
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 647
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 648
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 649
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 650
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 651
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 652
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 653
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 654
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 655
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 656
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 657
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 658
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 659
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 660
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 661
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 662
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 663
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 664
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 665
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 666
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 667
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 668
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 669
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 670
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 671
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 672
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 673
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 674
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 675
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 676
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 677
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 678
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 679
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 680
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 681
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 682
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 683
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 684
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 685
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 686
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 687
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 688
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 689
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 690
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 691
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 692
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 693
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 694
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 695
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 696
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 697
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 698
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 699
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 700
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 701
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 702
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 703
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 704
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 705
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 706
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 707
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 708
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 709
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 710
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 711
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 712
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 713
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 714
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 715
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 716
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 717
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 718
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 719
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 720
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 721
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 722
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 723
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 724
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 725
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 726
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 727
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 728
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 729
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 730
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 731
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 732
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 733
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 734
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 735
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 736
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 737
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 738
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 739
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 740
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 741
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 742
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 743
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 744
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 745
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 746
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 747
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 748
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 749
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 750
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 751
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 752
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 753
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 754
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 755
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 756
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 757
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 758
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 759
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 760
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 761
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 762
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 763
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 764
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 765
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 766
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 767
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 768
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 769
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 770
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 771
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 772
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 773
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 774
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 775
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 776
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 777
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 778
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 779
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 780
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 781
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 782
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 783
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 784
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 785
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 786
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 787
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 788
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 789
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 790
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 791
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 792
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 793
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 794
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 795
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 796
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 797
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 798
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 799
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 800
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 801
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 802
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 803
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 804
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 805
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 806
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 807
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 808
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 809
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 810
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 811
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 812
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 813
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 814
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 815
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 816
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 817
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 818
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 819
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 820
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 821
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 822
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 823
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 824
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 825
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 826
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 827
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 828
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 829
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 830
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 831
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 832
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 833
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 834
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 835
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 836
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 837
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 838
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 839
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 840
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 841
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 842
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 843
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 844
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 845
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 846
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 847
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 848
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 849
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 850
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 851
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 852
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 853
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 854
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 855
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 856
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 857
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 858
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 859
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 860
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 861
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 862
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 863
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 864
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 865
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 866
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 867
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 868
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 869
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 870
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 871
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 872
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 873
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 874
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 875
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 876
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 877
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 878
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 879
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 880
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 881
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 882
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 883
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 884
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 885
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 886
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 887
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 888
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 889
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 890
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 891
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 892
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 893
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 894
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 895
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 896
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 897
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 898
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 899
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 900
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 901
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 902
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 903
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 904
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 905
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 906
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 907
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 908
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 909
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 910
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 911
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 912
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 913
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 914
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 915
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 916
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 917
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 918
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 919
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 920
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 921
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 922
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 923
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 924
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 925
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 926
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 927
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 928
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 929
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 930
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 931
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 932
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 933
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 934
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 935
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 936
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 937
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 938
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 939
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 940
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 941
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 942
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 943
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 944
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 945
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 946
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 947
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 948
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 949
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 950
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 951
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 952
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 953
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 954
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 955
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 956
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 957
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 958
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 959
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 960
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 961
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 962
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 963
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 964
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 965
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 966
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 967
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 968
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 969
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 970
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 971
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 972
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 973
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 974
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 975
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 976
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 977
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 978
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 979
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 980
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 981
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 982
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 983
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 984
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 985
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 986
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 987
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 988
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 989
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 990
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 991
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 992
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 993
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 994
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 995
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 996
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 997
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 998
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 999
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1000
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1001
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1002
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1003
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1004
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1005
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1006
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1007
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1008
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1009
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1010
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1011
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1012
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1013
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1014
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1015
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1016
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1017
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1018
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1019
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1020
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1021
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1022
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1023
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1024
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1025
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1026
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1027
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1028
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1029
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1030
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1031
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1032
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1033
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1034
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1035
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1036
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1037
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1038
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1039
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1040
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1041
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1042
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1043
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1044
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1045
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1046
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1047
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1048
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1049
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1050
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1051
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1052
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1053
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1054
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1055
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1056
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1057
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1058
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1059
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1060
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1061
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1062
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1063
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1064
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1065
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1066
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1067
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1068
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1069
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1070
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1071
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1072
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1073
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1074
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1075
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1076
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1077
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1078
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1079
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1080
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1081
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1082
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1083
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1084
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1085
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1086
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1087
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1088
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1089
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1090
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1091
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1092
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1093
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1094
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1095
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1096
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1097
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1098
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1099
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1100
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1101
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1102
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1103
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1104
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1105
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1106
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1107
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1108
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1109
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1110
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1111
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1112
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1113
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1114
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1115
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1116
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1117
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1118
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1119
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1120
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1121
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1122
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1123
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1124
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1125
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1126
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1127
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1128
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1129
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1130
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1131
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1132
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1133
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1134
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1135
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1136
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1137
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1138
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1139
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1140
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1141
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1142
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1143
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1144
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1145
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1146
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1147
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1148
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1149
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1150
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1151
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1152
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1153
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1154
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1155
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1156
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1157
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1158
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1159
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1160
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1161
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1162
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1163
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1164
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1165
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1166
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1167
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1168
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1169
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1170
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1171
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1172
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1173
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1174
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1175
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1176
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1177
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1178
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1179
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1180
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1181
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1182
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1183
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1184
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1185
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1186
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1187
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1188
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1189
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1190
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1191
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1192
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1193
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1194
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1195
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1196
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1197
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1198
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1199
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1200
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1201
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1202
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1203
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1204
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1205
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1206
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1207
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1208
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1209
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1210
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1211
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1212
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1213
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1214
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1215
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1216
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1217
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1218
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1219
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1220
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1221
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1222
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1223
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1224
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1225
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1226
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1227
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1228
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1229
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1230
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1231
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1232
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1233
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1234
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1235
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1236
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1237
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1238
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1239
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1240
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1241
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1242
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1243
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1244
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1245
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1246
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1247
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1248
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1249
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1250
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1251
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1252
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1253
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1254
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1255
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1256
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1257
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1258
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1259
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1260
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1261
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1262
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1263
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1264
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1265
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1266
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1267
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1268
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1269
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1270
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1271
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1272
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1273
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1274
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1275
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1276
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1277
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1278
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1279
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1280
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1281
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1282
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1283
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1284
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1285
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1286
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1287
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1288
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1289
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1290
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1291
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1292
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1293
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1294
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1295
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1296
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1297
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1298
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1299
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1300
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1301
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1302
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1303
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1304
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1305
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1306
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1307
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1308
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1309
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1310
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1311
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1312
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1313
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1314
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1315
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1316
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1317
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1318
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1319
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1320
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1321
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1322
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1323
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1324
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1325
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1326
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1327
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1328
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1329
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1330
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1331
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1332
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1333
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1334
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1335
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1336
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1337
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1338
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1339
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1340
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1341
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1342
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1343
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1344
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1345
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1346
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1347
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1348
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1349
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1350
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1351
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1352
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1353
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1354
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1355
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1356
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1357
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1358
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1359
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1360
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1361
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1362
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1363
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1364
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1365
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1366
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1367
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1368
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1369
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1370
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1371
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1372
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1373
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1374
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1375
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1376
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1377
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1378
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1379
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1380
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1381
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1382
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1383
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1384
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1385
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1386
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1387
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1388
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1389
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1390
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1391
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1392
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1393
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1394
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1395
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1396
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1397
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1398
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1399
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1400
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1401
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1402
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1403
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1404
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1405
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1406
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1407
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1408
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1409
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1410
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1411
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1412
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1413
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1414
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1415
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1416
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1417
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1418
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1419
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1420
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1421
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1422
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1423
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1424
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1425
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1426
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1427
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1428
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1429
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1430
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1431
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1432
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1433
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1434
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1435
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1436
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1437
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1438
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1439
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1440
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1441
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1442
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1443
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1444
+playChain(0, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1445
+playChain(1, 2) 
+look for pie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+alreadySize 1446
+playChain(0, 2) 
