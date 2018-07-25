@@ -9,65 +9,49 @@ var inquirer = require('inquirer');
 
 let toBeDestroyed = new Set();
 
-let alreadyChecked = new Set();
-
-//give id to each index
+let alreadyChecked = new Set()
 
 let playChain = (arr, pos) => {
-    //has it been evaluated
-    if (pos in alreadyChecked === true){
+    let targetValue = arr.getValue(pos);
+
+    if (alreadyChecked.has(targetValue.id)){
         console.log('tbd-size: ', toBeDestroyed.size);
-        // return 'function is over'
     }
     else{
-        console.log(`Start of Function: Row: ${pos.row}, Col: ${pos.col}`);
-                        console.log('alreadyValues===================');
-                        console.log(alreadyChecked.values());
-                        console.log('================================');
+        let loopSet = []
+        alreadyChecked.add(targetValue.id)
+        toBeDestroyed.add(targetValue.id);
 
-                        
+console.log(`Start of Function: Row: ${pos.row}, Col: ${pos.col}`);
+console.log('====================/============');
+console.log('alreadyValuesLength', alreadyChecked.size);
+console.log('tbd', toBeDestroyed.size);
+console.log('================================');
 
-                        //set of all items to be destroyed;
-                        toBeDestroyed.add(pos);
-                        let loopSet = new Set()
+        
 
-                        let targetValue = arr.getValue(pos);
+        //getNeighbors
+        let targetNeighbors = arr.getNeighbors(pos);
 
-                        //getNeighbors
-                        let targetNeighbors = arr.getNeighbors(pos);
+        for (const [key, value] of targetNeighbors) {
+            if(value.val === targetValue.val){
+                loopSet.push({id: value.id, pos: key})
+            }
+        }
 
-                        alreadyChecked.add(pos)
+        loopSet.forEach((item)=>{
+            // console.log('item', item);
+            
+            if(!alreadyChecked.has(item.id)){
+                playChain(arr, item.pos);
+            }
+        })
+  
 
-                        //if any neighbor has targetValue, put it in the toBeDestroyed set and a local loopSet
-                        for (const [newPos, value] of targetNeighbors) {
-                            if (value === targetValue) {
-                                toBeDestroyed.add(newPos);
-                                loopSet.add(newPos);
-                            }
-                        }
+        }
 
-                        console.log('alreadySize', alreadyChecked.size);
-
-                        //go over the local loopSet
-                        if(loopSet.size > 0) {
-                            loopSet.forEach((item)=>{
-                                //check if item is equal to one of the values in alreadyChecked
-                                    if(item in alreadyChecked === false){
-                                        console.log(`playChain(${item.row}, ${item.col}) `);
-                                        playChain(arr, item);
-                                    }
-                  
-                                })
-
-
-
-
-                            })
-                        }
-             
     }
 
-}
 
 
 
@@ -75,33 +59,20 @@ let playChain = (arr, pos) => {
 let pseudoClick = (arr) => {
     inquirer.prompt([{type: 'input', name: 'row'},{type: 'input', name: 'col'}]).then(answers => {
         let targetPos ={}
-
-
         targetPos.row = parseInt(answers.row);
         targetPos.col = parseInt(answers.col);
-
-        // let targetValue = newBoard.getValue(targetPos);
-        // squarestoKill.add(targetPos)
-
-        // //getNeighbors
-        // let targetNeighbors = newBoard.getNeighbors(targetPos);
-        
-        // playChain(targetNeighbors, squarestoKill, targetValue, newBoard);
         let chain = playChain(arr, targetPos);
-
-        // console.log('chain', chain);
-        
     });
 }
 
 
 
 let myBoard = [
-[ 1, 1, 0, 1, 1 ],
-[ 1, 1, 0, 1, 1 ],
-[ 0, 0, 0, 0, 0 ],
-[ 1, 1, 0, 1, 1 ],
-[ 1, 1, 0, 1, 1 ],
+[ {id:0, val:1}, {id:1, val:1}, {id:2, val:0}, {id:3, val:1}, {id:4, val:1} ],
+[ {id:5, val:1}, {id:6, val:1}, {id:7, val:0}, {id:8, val:1}, {id:9, val:1} ],
+[ {id:10, val:0}, {id:11, val:0}, {id:12, val:0}, {id:13, val:0}, {id:14, val:0} ],
+[ {id:15, val:1}, {id:16, val:1}, {id:17, val:0}, {id:18, val:1}, {id:19, val:1} ],
+[ {id:20, val:1}, {id: 21, val:1}, {id:22, val:0}, {id:23, val:1}, {id:24, val:1} ],
 ]
 
 let showBoard = (arr) => {
@@ -112,7 +83,7 @@ let showBoard = (arr) => {
 }
 
 
-// let newBoard = createMatrix(5,5);
+let newBoard = createMatrix(5,5);
 
 // console.log('create an empty board');
 // console.log('******************************');
@@ -120,7 +91,7 @@ let showBoard = (arr) => {
 // showBoard(newBoard);
 
 // console.log('fill the board');
-console.log('******************************');
+// console.log('******************************');
 
 // newBoard.fillMatrix(5)
 showBoard(myBoard);
@@ -133,7 +104,11 @@ pseudoClick(myBoard);
 
 
 
-
+// console.log(`Start of Function: Row: ${pos.row}, Col: ${pos.col}`);
+// console.log('================================');
+// console.log('alreadyValuesLength', alreadyChecked.length);
+// console.log('tbd', toBeDestroyed.size);
+// console.log('================================');
  
 
 

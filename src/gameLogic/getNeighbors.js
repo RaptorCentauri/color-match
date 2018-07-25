@@ -33,18 +33,28 @@ const getNeighbors = Object.defineProperty(Array.prototype, 'getNeighbors', {
             if (Object.keys(obj).length != 2) throw 'getNeighbors expects an object with only 2 keys: row & col!'
 
         const neighbors = new Map();
+        // const neighbors = [];
+
 
         //north neighbor
         if ((obj.row - 1) >= 0) neighbors.set({row: obj.row-1, col: obj.col}, this[obj.row - 1][obj.col])
+        // if ((obj.row - 1) >= 0) neighbors.push({row: obj.row-1, col: obj.col})
+
 
         //south neighbor
         if ((obj.row + 1) <= (this.length - 1)) neighbors.set({row:obj.row+1, col:obj.col}, this[obj.row + 1][obj.col])
+        // if ((obj.row + 1) <= (this.length - 1)) neighbors.push({row:obj.row+1, col:obj.col})
+
 
         //east neighbor
         if ((obj.col + 1) <= (this[obj.row].length - 1)) neighbors.set({row:obj.row, col:obj.col+1}, this[obj.row][obj.col + 1])
+        // if ((obj.col + 1) <= (this[obj.row].length - 1)) neighbors.push({row:obj.row, col:obj.col+1})
+
 
         //west neighbor
         if ((obj.col - 1) >= 0) neighbors.set({row:obj.row, col:obj.col-1}, this[obj.row][obj.col - 1])
+        // if ((obj.col - 1) >= 0) neighbors.push({row:obj.row, col:obj.col-1})
+
         
         return neighbors
 
@@ -54,45 +64,5 @@ const getNeighbors = Object.defineProperty(Array.prototype, 'getNeighbors', {
     }
 });
 
-
-// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// class getNeighbors extends Array{
-//     // constructor(obj){
-//     //     this.obj = obj;
-//     // }
- 
-// }
-
-// console.log('my name is earl');
-
-    
-
-// // } 
-// // const getNeighbors = (p) => {
-// //     console.log('bugs');
-// //     console.log(p);
-// //     console.log(getNeighbors.name);
-
-// // }
-
-
-// const getNeighbors = function(p) {
-//     console.log('bugs');
-//     console.log(getNeighbors.name);
-//     console.log(this);
-    
-//     // console.log(Object.getOwnPropertyNames({this: this}));
-
-// }
-
-// // Array.prototype.getNeighbors = getNeighbors;
-
-// let testMatrix = [['0','1','3'],['4','5','6'],['7','8','9']];
-// // let moo = 'moo'
-
-// // console.log(Object.getOwnPropertyNames({testMatrix}));
-
-// testMatrix.getNeighbors(9);
-// // moo.getNeighbors();
 
 export default getNeighbors;
