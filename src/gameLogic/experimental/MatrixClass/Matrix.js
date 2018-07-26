@@ -24,11 +24,13 @@ class Matrix {
     }
 
     getEastEdge = () => {
+        let rowSize = Math.sqrt(this.size)
+
         this.eastEdge = new Set();
 
         for (let i = 0; i < this.size; i++) {
             let k = i+1
-            if(k%4===0){
+            if(k%rowSize===0){
                 this.eastEdge.add(k);
             }
         }
@@ -277,63 +279,32 @@ class Matrix {
         let alreadyChecked = new Set()
 
         let playChain = (pos) => {
-            console.log(`CHECKING ${pos}`);
-            
-            // console.log('TBD', toBeDestroyed.size);
-            
-            
             let targetID = pos;
 
-            if (alreadyChecked.has(targetID)){
-                console.log('giraffe');
-            }
-            else{
-                let loopSet = new Set()
+            let loopSet = new Set()
 
-                console.log(`adding ${pos} to checkedSet`);
-                
-                alreadyChecked.add(targetID)
+            alreadyChecked.add(targetID)
 
-                console.log('ARC', alreadyChecked);
+            toBeDestroyed.add(targetID);
 
-                toBeDestroyed.add(targetID);
+            let targetNeighbors = this.getEquivalentNeighbors(targetID)
 
-                let targetNeighbors = this.getEquivalentNeighbors(targetID)
-
-                for (const [key, value] of targetNeighbors) {
-                    if(targetNeighbors.get(key) === this.map.get(targetID)){
-                        loopSet.add(key)
-                    }
+            for (const [key, value] of targetNeighbors) {
+                if(targetNeighbors.get(key) === this.map.get(targetID)){
+                    loopSet.add(key)
                 }
-
-
-
-                loopSet.forEach((item)=>{
-                    if(!alreadyChecked.has(item)){
-                        console.log(`${item} has not been checked!- ${alreadyChecked.has(item)}`);
-                        playChain(item)
-                    }
-                    else{
-                        console.log(`${item} has already been checked! - ${alreadyChecked.has(item)}`);
-                        
-                    }
-                })
             }
-            // console.log('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
-            
-        }
+
+            loopSet.forEach((item)=>{
+                if(!alreadyChecked.has(item)){
+                    playChain(item)
+                }
+            })
+            }
 
         playChain(id);
 
-    }
-
-    getAllIdWithEqualValue = (id) => {
-        let equalSet = new Set();
-
-        for (const [key, value] of this.map) {
-            console.log(value);
-            
-        }
+        return toBeDestroyed;
 
     }
 
@@ -348,6 +319,7 @@ let test = new Matrix(25);
 
 test.fillEmptyValues(1)
 
+
 test.setValueOfid(3, 0);
 test.setValueOfid(8, 0)
 test.setValueOfid(11, 0)
@@ -356,27 +328,32 @@ test.setValueOfid(13, 0)
 test.setValueOfid(14, 0)
 test.setValueOfid(15, 0)
 test.setValueOfid(18, 0)
+test.setValueOfid(25, 0)
+test.setValueOfid(24, 0)
 test.setValueOfid(23, 0)
+test.setValueOfid(22, 0)
+test.setValueOfid(21, 0)
+test.setValueOfid(20, 0)
+test.setValueOfid(1, 0)
+
+
+
 
 test.displayPretty()
 
-test.getChainfromID(13)
-// test.getAllIdWithEqualValue(13)
+// let u = test.getEquivalentNeighbors(24);
+// console.log('u', u)
 
-// let moo = test.getEquivalentNeighbors(13)
-// console.log('moo', moo);
+// let x = test.getEastNeighbor(24)
+// console.log('x', x);
 
-// let foo = test.getNeighbors(13)
+// console.log(test.eastEdge);
 
-// console.log('foo', foo);
+let me = test.getChainfromID(24)
 
-// let west = test.getWestNeighbor(13)
+console.log(me.size);
 
-// console.log('west', west);
-// console.log(test.map.has(12))
-// console.log(test.map);
 
-// console.log('WE', test.westEdge)
 
 
 
