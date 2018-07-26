@@ -308,50 +308,28 @@ class Matrix {
 
     }
 
+
+    destroyChainfromID = (id) => {
+        let chain = this.getChainfromID(id);
+        chain.forEach(c => {
+            this.deleteValueOfId(c)
+        })
+    }
+
+    replaceChainfromID = (id, val, noCall) => {
+
+        let chain = this.getChainfromID(id)
+        chain.forEach(c => {
+            this.setValueOfid(c, val, noCall)
+        })
+
+    }
+
+
 }
 
 
 export default Matrix
-
-
-let test = new Matrix(25);
-
-
-test.fillEmptyValues(1)
-
-
-test.setValueOfid(3, 0);
-test.setValueOfid(8, 0)
-test.setValueOfid(11, 0)
-test.setValueOfid(12, 0)
-test.setValueOfid(13, 0)
-test.setValueOfid(14, 0)
-test.setValueOfid(15, 0)
-test.setValueOfid(18, 0)
-test.setValueOfid(25, 0)
-test.setValueOfid(24, 0)
-test.setValueOfid(23, 0)
-test.setValueOfid(22, 0)
-test.setValueOfid(21, 0)
-test.setValueOfid(20, 0)
-test.setValueOfid(1, 0)
-
-
-
-
-test.displayPretty()
-
-// let u = test.getEquivalentNeighbors(24);
-// console.log('u', u)
-
-// let x = test.getEastNeighbor(24)
-// console.log('x', x);
-
-// console.log(test.eastEdge);
-
-let me = test.getChainfromID(24)
-
-console.log(me.size);
 
 
 
