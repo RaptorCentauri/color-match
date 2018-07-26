@@ -197,7 +197,23 @@ class Matrix {
 
 
     display = () => {
+
         let arr = Array.from(this.map.values())
+        let show = arr.convertToSquareBoard();   
+        show.forEach(row =>{
+            console.log(row);
+        })
+    }
+
+    displayPretty = () => {
+        let arr = Array.from(this.map.values())
+
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === null) arr[i] = '*'
+            
+            arr[i] = arr[i].toString()
+        }
+
 
         let show = arr.convertToSquareBoard();   
         show.forEach(row =>{
@@ -226,13 +242,20 @@ newMatrix.deleteValueOfId(7)
 newMatrix.deleteValueOfId(16)
 
 
-
-
-
 newMatrix.display();
 console.log('============================');
 newMatrix.drop();
 newMatrix.display();
+console.log('##############################');
+
+newMatrix.displayPretty()
+
+console.log('============================');
+newMatrix.fillValues(4);
+newMatrix.display();
+console.log('##############################');
+
+newMatrix.displayPretty()
 
 
 
