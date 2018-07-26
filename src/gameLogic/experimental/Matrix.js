@@ -1,18 +1,23 @@
+import convertToSquareBoard from '../../gameLogic/convertToMatrix.js'
+
 class Matrix {
     constructor(size){
         this.size = size;
+        this.createMatrix();
     }
 
-     createArray = () => {
+     createMatrix = () => {
         let arr = [];
-        // console.log('size', this.size);
         for (let i = 0; i < this.size ; i++) {
             arr.push({id: i+1, value: null})
-            // console.log(i+1);
         }
 
-        return arr
+        this.boo = arr.convertToSquareBoard();        
+        // return this.boo;
     }
+
+
+
 
 }
 
@@ -20,8 +25,9 @@ class Matrix {
 export default Matrix
 
 
-let mat = new Matrix(9);
 
-let n = mat.createArray();
 
-console.log(n);
+let newMatrix = new Matrix(9).boo;
+
+console.log(newMatrix);
+
