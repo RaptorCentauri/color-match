@@ -3,7 +3,6 @@ import convertToSquareBoard from '../../../gameLogic/convertToMatrix.js'
 class Matrix {
     constructor(size){
         this.size = size;
-        // this.createMatrix();
         this.createMap();
         this.getAllEdges();
     }
@@ -14,15 +13,6 @@ class Matrix {
         for (let i = 0; i < this.size; i++) {
             this.map.set(i+1, null)
         }
-    }
-
-     createMatrix = () => {
-        let arr = [];
-        for (let i = 0; i < this.size ; i++) {
-            arr.push({id: i+1, value: null})
-        }
-
-        this.boo = arr.convertToSquareBoard();        
     }
 
     getNorthEdge = () => {
@@ -123,7 +113,9 @@ class Matrix {
 
     fillValues = (limit) => {
         for (const [key, value] of this.map) {
+            if (this.map.get(key) === null) {
                 this.map.set(key, Math.floor(Math.random()*limit))
+            }
         }
     }
 
@@ -135,7 +127,6 @@ class Matrix {
         let equivalentNeighbors = new Map();
 
         let neighbors = this.getNeighbors(id);
-
         neighbors.forEach(n =>{
             if (this.getValueOfId(id) === this.getValueOfId(n)) {
                 equivalentNeighbors.set(n, this.getValueOfId(n))
@@ -145,9 +136,91 @@ class Matrix {
         return equivalentNeighbors
     }
 
+    deleteValueOfId = (id) => {
+        this.map.set(id, null)
+    }
+
+    drop = () => {
+        let rowSize = Math.sqrt(this.size);
+        this.southEdge.forEach(e =>{
+            let dropMap = new Map();
+
+            do {
+               dropMap.set(e, this.getValueOfId(e))
+               e = e-rowSize;
+            } while (e-rowSize > -(rowSize));
+
+  
+            
+
+            let setOfNulls = new Set();
+
+            for (const [key, value] of dropMap) {
+                if(this.getValueOfId(key) === null){
+                    setOfNulls.add(key)
+                }
+             }
+
+
+             if(setOfNulls.size > 0){
+                console.log('START');
+            
+                console.log(dropMap);
 
 
 
+             let setOfValid = new Set();
+
+             for (const [key, value] of dropMap) {
+                if(this.getValueOfId(key) != null){
+                    setOfValid.add(key)
+                }
+             }
+
+             let rMap = dropMap;
+
+             
+
+             let valds = setOfValid.values();
+
+             for (const [key, value] of dropMap) {
+                 let y = valds.next().value
+                 
+                 dropMap.set(key, rMap.get(y))
+                 
+                if(y != undefined){
+                    dropMap.set(key, rMap.get(y))
+                }
+                else{
+                    dropMap.set(key, null)
+                }
+
+                 
+             }
+
+             console.log('END');
+
+             console.log(dropMap);
+            }
+        })
+    
+    }
+
+
+    
+
+
+
+
+
+    display = () => {
+        let arr = Array.from(this.map.values())
+
+        let show = arr.convertToSquareBoard();   
+        show.forEach(row =>{
+            console.log(row);
+        })
+    }
 
 }
 
@@ -159,12 +232,29 @@ export default Matrix
 
 let newMatrix = new Matrix(16);
 
-
 newMatrix.fillValues(4);
-console.log(newMatrix.map);
-console.log(newMatrix.getValueOfId(11))
-console.log(newMatrix.getNeighbors(11))
-console.log(newMatrix.getEquivalentNeighbors(11));
+// newMatrix.display();
+
+// console.log('============================');
+newMatrix.deleteValueOfId(13)
+newMatrix.deleteValueOfId(5)
+
+
+// newMatrix.display();
+// console.log('============================');
+newMatrix.drop();
+// newMatrix.display();
+
+
+
+
+
+
+
+
+
+
+
 
 
 
