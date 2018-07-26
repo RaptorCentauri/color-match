@@ -134,6 +134,27 @@ class Matrix {
         return this.map.get(id);
     }
 
+    setValueOfid = (id, val) => {
+        try {
+            if(id > this.map.size) throw new RangeError(`You passed an ID (${id}) larger than the Matrix size (${this.map.size})!`);
+            if(id <= 0) throw new RangeError(`ID must be greater than zero!`);
+
+
+
+            if (typeof(val) != 'function') {
+                this.map.set(id, val)
+            }
+    
+            if (typeof(val) === 'function') {
+                this.map.set(id, val())
+            }
+
+        } catch (e) {
+            console.error(e)
+        }
+
+    }
+
     getEquivalentNeighbors = (id) => {
         let equivalentNeighbors = new Map();
 
@@ -241,8 +262,10 @@ export default Matrix
 
 let newMatrix = new Matrix(16);
 
+newMatrix.setValueOfid(-10, 'green')
 
-newMatrix.display()
+
+newMatrix.displayPretty()
 
 
 
