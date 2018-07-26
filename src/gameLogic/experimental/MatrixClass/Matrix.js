@@ -150,9 +150,6 @@ class Matrix {
                e = e-rowSize;
             } while (e-rowSize > -(rowSize));
 
-  
-            
-
             let setOfNulls = new Set();
 
             for (const [key, value] of dropMap) {
@@ -161,14 +158,7 @@ class Matrix {
                 }
              }
 
-
              if(setOfNulls.size > 0){
-                console.log('START');
-            
-                console.log(dropMap);
-
-
-
              let setOfValid = new Set();
 
              for (const [key, value] of dropMap) {
@@ -194,23 +184,16 @@ class Matrix {
                 else{
                     dropMap.set(key, null)
                 }
-
-                 
              }
 
-             console.log('END');
+             for (const [key, value] of dropMap) {
+                 this.map.set(key, value)
+             }
 
-             console.log(dropMap);
             }
         })
     
     }
-
-
-    
-
-
-
 
 
     display = () => {
@@ -233,17 +216,23 @@ export default Matrix
 let newMatrix = new Matrix(16);
 
 newMatrix.fillValues(4);
-// newMatrix.display();
+newMatrix.display();
 
-// console.log('============================');
-newMatrix.deleteValueOfId(13)
-newMatrix.deleteValueOfId(5)
+console.log('============================');
+newMatrix.deleteValueOfId(9)
+newMatrix.deleteValueOfId(1)
+newMatrix.deleteValueOfId(4)
+newMatrix.deleteValueOfId(7)
+newMatrix.deleteValueOfId(16)
 
 
-// newMatrix.display();
-// console.log('============================');
+
+
+
+newMatrix.display();
+console.log('============================');
 newMatrix.drop();
-// newMatrix.display();
+newMatrix.display();
 
 
 
