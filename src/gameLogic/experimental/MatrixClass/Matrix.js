@@ -35,21 +35,24 @@ class Matrix {
     }
 
     getSouthEdge = () => {
+        let rowSize = Math.sqrt(this.size)
+
         this.southEdge = new Set();
 
         for (let i = 0; i < this.size; i++) {
             let k = i+1; 
-            if(this.size-k<4){
+            if(this.size-k<rowSize){
                 this.southEdge.add(k);
             }
         }
     }
 
     getWestEdge = () => {
+        let rowSize = Math.sqrt(this.size)
         this.westEdge = new Set();
         for (let i = 0; i < this.size; i++) {
             let k = i+1; 
-            if(k%4===1){
+            if(k%rowSize===1){
                 this.westEdge.add(k);
             }
         }
@@ -109,7 +112,6 @@ class Matrix {
 
         return neighbors
     }
-
 
     fillEmptyValues = (val, noCall) => {
         try {
@@ -176,6 +178,7 @@ class Matrix {
         let equivalentNeighbors = new Map();
 
         let neighbors = this.getNeighbors(id);
+
         neighbors.forEach(n =>{
             if (this.getValueOfId(id) === this.getValueOfId(n)) {
                 equivalentNeighbors.set(n, this.getValueOfId(n))
@@ -243,7 +246,6 @@ class Matrix {
     
     }
 
-
     display = () => {
         let arr = Array.from(this.map.values())
         let show = arr.convertToSquareBoard();   
@@ -268,13 +270,122 @@ class Matrix {
         })
     }
 
+
+    getChainfromID = (id) => {
+        let toBeDestroyed = new Set();
+
+        let alreadyChecked = new Set()
+
+        let playChain = (pos) => {
+            console.log(`CHECKING ${pos}`);
+            
+            // console.log('TBD', toBeDestroyed.size);
+            
+            
+            let targetID = pos;
+
+            if (alreadyChecked.has(targetID)){
+                console.log('giraffe');
+            }
+            else{
+                let loopSet = new Set()
+
+                console.log(`adding ${pos} to checkedSet`);
+                
+                alreadyChecked.add(targetID)
+
+                console.log('ARC', alreadyChecked);
+
+                toBeDestroyed.add(targetID);
+
+                let targetNeighbors = this.getEquivalentNeighbors(targetID)
+
+                for (const [key, value] of targetNeighbors) {
+                    if(targetNeighbors.get(key) === this.map.get(targetID)){
+                        loopSet.add(key)
+                    }
+                }
+
+
+
+                loopSet.forEach((item)=>{
+                    if(!alreadyChecked.has(item)){
+                        console.log(`${item} has not been checked!- ${alreadyChecked.has(item)}`);
+                        playChain(item)
+                    }
+                    else{
+                        console.log(`${item} has already been checked! - ${alreadyChecked.has(item)}`);
+                        
+                    }
+                })
+            }
+            // console.log('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
+            
+        }
+
+        playChain(id);
+
+    }
+
+    getAllIdWithEqualValue = (id) => {
+        let equalSet = new Set();
+
+        for (const [key, value] of this.map) {
+            console.log(value);
+            
+        }
+
+    }
+
 }
 
 
 export default Matrix
 
 
-let rando = () => Math.floor(Math.random()*4);
+let test = new Matrix(25);
+
+
+test.fillEmptyValues(1)
+
+test.setValueOfid(3, 0);
+test.setValueOfid(8, 0)
+test.setValueOfid(11, 0)
+test.setValueOfid(12, 0)
+test.setValueOfid(13, 0)
+test.setValueOfid(14, 0)
+test.setValueOfid(15, 0)
+test.setValueOfid(18, 0)
+test.setValueOfid(23, 0)
+
+test.displayPretty()
+
+test.getChainfromID(13)
+// test.getAllIdWithEqualValue(13)
+
+// let moo = test.getEquivalentNeighbors(13)
+// console.log('moo', moo);
+
+// let foo = test.getNeighbors(13)
+
+// console.log('foo', foo);
+
+// let west = test.getWestNeighbor(13)
+
+// console.log('west', west);
+// console.log(test.map.has(12))
+// console.log(test.map);
+
+// console.log('WE', test.westEdge)
+
+
+
+
+
+
+
+
+
 
 
 
