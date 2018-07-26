@@ -111,10 +111,21 @@ class Matrix {
         return neighbors
     }
 
-    fillValues = (limit) => {
-        for (const [key, value] of this.map) {
-            if (this.map.get(key) === null) {
-                this.map.set(key, Math.floor(Math.random()*limit))
+
+    fillEmptyValues = (val) => {
+        if (typeof(val) != 'function') {
+            for (const [key, value] of this.map) {
+                if (this.map.get(key) === null) {
+                    this.map.set(key, val)
+                }
+            }
+        }
+
+        if (typeof(val) === 'function') {
+            for (const [key, value] of this.map) {
+                if (this.map.get(key) === null) {
+                    this.map.set(key, val())
+                }
             }
         }
     }
@@ -159,37 +170,36 @@ class Matrix {
              }
 
              if(setOfNulls.size > 0){
-             let setOfValid = new Set();
+                let setOfValid = new Set();
 
-             for (const [key, value] of dropMap) {
-                if(this.getValueOfId(key) != null){
-                    setOfValid.add(key)
+                for (const [key, value] of dropMap) {
+                    if(this.getValueOfId(key) != null){
+                        setOfValid.add(key)
+                    }
                 }
-             }
 
-             let rMap = dropMap;
+                let rMap = dropMap;
 
-             
+                
 
-             let valds = setOfValid.values();
+                let valds = setOfValid.values();
 
-             for (const [key, value] of dropMap) {
-                 let y = valds.next().value
-                 
-                 dropMap.set(key, rMap.get(y))
-                 
-                if(y != undefined){
+                for (const [key, value] of dropMap) {
+                    let y = valds.next().value
+                    
                     dropMap.set(key, rMap.get(y))
+                    
+                    if(y != undefined){
+                        dropMap.set(key, rMap.get(y))
+                    }
+                    else{
+                        dropMap.set(key, null)
+                    }
                 }
-                else{
-                    dropMap.set(key, null)
+
+                for (const [key, value] of dropMap) {
+                    this.map.set(key, value)
                 }
-             }
-
-             for (const [key, value] of dropMap) {
-                 this.map.set(key, value)
-             }
-
             }
         })
     
@@ -210,7 +220,7 @@ class Matrix {
 
         for (let i = 0; i < arr.length; i++) {
             if (arr[i] === null) arr[i] = '*'
-            
+
             arr[i] = arr[i].toString()
         }
 
@@ -231,56 +241,8 @@ export default Matrix
 
 let newMatrix = new Matrix(16);
 
-newMatrix.fillValues(4);
-newMatrix.display();
 
-console.log('============================');
-newMatrix.deleteValueOfId(9)
-newMatrix.deleteValueOfId(1)
-newMatrix.deleteValueOfId(4)
-newMatrix.deleteValueOfId(7)
-newMatrix.deleteValueOfId(16)
-
-
-newMatrix.display();
-console.log('============================');
-newMatrix.drop();
-newMatrix.display();
-console.log('##############################');
-
-newMatrix.displayPretty()
-
-console.log('============================');
-newMatrix.fillValues(4);
-newMatrix.display();
-console.log('##############################');
-
-newMatrix.displayPretty()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// newMatrix.getNorthEdge();
+newMatrix.display()
 
 
 
