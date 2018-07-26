@@ -7,7 +7,6 @@ class Matrix {
         this.getAllEdges();
     }
 
-
     createMap = () => {
         this.map = new Map();
         for (let i = 0; i < this.size; i++) {
@@ -134,11 +133,11 @@ class Matrix {
         return this.map.get(id);
     }
 
-    setValueOfid = (id, val) => {
+    setValueOfid = (id, val, noCall) => {
         try {
             if(id > this.map.size) throw new RangeError(`You passed an ID (${id}) larger than the Matrix size (${this.map.size})!`);
             if(id <= 0) throw new RangeError(`ID must be greater than zero!`);
-
+            if(noCall && (noCall != 'noCall')) throw new Error (`If you want to pass in a function without calling it, set the noCall parameter to 'noCall'`)
 
 
             if (typeof(val) != 'function') {
@@ -146,7 +145,12 @@ class Matrix {
             }
     
             if (typeof(val) === 'function') {
-                this.map.set(id, val())
+                if (noCall) {
+                    this.map.set(id, val)
+                }
+                else{
+                    this.map.set(id, val())
+                }
             }
 
         } catch (e) {
@@ -228,7 +232,6 @@ class Matrix {
 
 
     display = () => {
-
         let arr = Array.from(this.map.values())
         let show = arr.convertToSquareBoard();   
         show.forEach(row =>{
@@ -258,14 +261,23 @@ class Matrix {
 export default Matrix
 
 
+let myName = () => 'dave'
 
 
 let newMatrix = new Matrix(16);
 
-newMatrix.setValueOfid(-10, 'green')
+newMatrix.setValueOfid(3, myName)
 
 
 newMatrix.displayPretty()
+
+let jo = newMatrix.getValueOfId(3)
+// console.log('jo', jo);
+let g= jo()
+
+console.log('g', g);
+
+
 
 
 
