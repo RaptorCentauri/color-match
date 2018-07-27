@@ -26,3 +26,4 @@ createMatrix DONE!
 getValue DONE!
 getNeigbors DONE!
 deleteValue DONE!
+shiftMatrixDown

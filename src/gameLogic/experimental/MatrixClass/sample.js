@@ -12,9 +12,7 @@ myMatrix.fillEmptyValues(rando);
 
 myMatrix.displayPretty()
 
+let moo = myMatrix.getAsItterator()
+// console.log('moo', moo);
 
-console.log(myMatrix.northEdge);
-console.log(myMatrix.southEdge);
-console.log(myMatrix.eastEdge);
-console.log(myMatrix.westEdge);
-
+moo.map(i => console.log('new', i ))

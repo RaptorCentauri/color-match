@@ -3,9 +3,8 @@ import createMatrix from '../../src/gameLogic/createMatrix.js'
 describe('createMatrix', () => {
     let rows = 5;
     let cols = 5;
-    let range = 4;
 
-    let testMatrix = createMatrix(rows, cols, range);
+    let testMatrix = createMatrix(rows, cols);
     
     it('should return an array', () => {
         expect(
@@ -25,16 +24,9 @@ describe('createMatrix', () => {
         ).toEqual(true);
     });
 
-    it(`should have no index with a value greater than ${range}` , () => {
+    it(`all indexes should be null` , () => {
         expect(
-            testMatrix.some((row) => row.some((element) => element <= range))
-        ).toEqual(true);
+            testMatrix.some((row) => row.some((element) => element != null))
+        ).toEqual(false);
     });
-
-    it(`should have no index with a value less than 0`, () => {
-        expect(
-            testMatrix.some((row) => row.some((element) => element >= 0))
-        ).toEqual(true);
-    });
-
 });

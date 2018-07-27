@@ -21,6 +21,8 @@ import fillEmptyValues from './fillEmptyValues'
 import getValueOfId from './getValueOfId'
 import setValueOfid from './setValueOfid'
 import convertToSquareBoard from './convertToSquareBoard'
+import getAsItterator from './getAsItterator';
+
 
 
 export {
@@ -46,7 +48,8 @@ export {
     replaceChainfromID, 
     setValueOfid,
     getNorthNeighbor,
-    convertToSquareBoard
+    convertToSquareBoard,
+    getAsItterator
 }
 
 

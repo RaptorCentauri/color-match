@@ -52,7 +52,7 @@ describe('deleteValue', () => {
         testMatrix.deleteValue({row: 1, col: 1});
         expect(
             testMatrix[1][1]
-        ).toBeUndefined();
+        ).toBeNull;
     });
 
     it(`should not change the width of the matrix`, () => {

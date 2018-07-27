@@ -5,6 +5,7 @@ class Matrix {
         this.size = size;
         this.createMap();
         this.getAllEdges();
+        this.getAsItterator()
     }
 
     setValueOfid = index.setValueOfid
@@ -28,8 +29,9 @@ class Matrix {
     display = index.display;
     displayPretty = index.displayPretty
     dropDown = index.dropDown
-    createMap = index.createMap;
+    createMap = index.createMap
     convertToSquareBoard = index.convertToSquareBoard
+    getAsItterator = index.getAsItterator
 }
 
 export default Matrix

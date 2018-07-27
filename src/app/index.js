@@ -1,14 +1,22 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.scss'
-import Square from './components/square/square.jsx';
-import createMatrix from '../gameLogic/createMatrix';
-import getNeighbors from '../gameLogic/getNeighbors';
+import Matrix from '../gameLogic/experimental/MatrixClass/Matrix.js'
 
 class App extends React.Component {
-    state = {
-        nums: createMatrix(5,5)
+    constructor(){
+        super()
+        let gameBoard = new Matrix(16);
+        let genRandNum = () => Math.floor(Math.random()* 4)
+        gameBoard.fillEmptyValues(genRandNum)
+
+        this.state = {
+            board: gameBoard,
+            boardItterator: gameBoard.keysAsArray
+        }
+
     }
+  
 
 
     handleSquareClick = () => {
@@ -16,24 +24,26 @@ class App extends React.Component {
 
     }
 
-    drawGameBoard = (arr) => {
-        return arr.map(row => 
-            row.map(col => 
-            <Square
-                letter={col} 
-                rowPos={arr.indexOf(row)} 
-                colPos={row.indexOf(col)}
-                handleSquareClick={this.handleSquareClick}
-                // getCoordinates={this.getCoordinates.bind(this, arr.indexOf(row), row.indexOf(col))}
-            />))
+
+
+    componentDidMount = () => {
+        console.log(this.state.board);
+
     }
 
+    display = () =>{
+        return 
+   
 
+    }
 
     render() {
+
         return (
             <div className='App'>
-                {this.drawGameBoard(this.state.nums)}
+                {this.state.boardItterator.map(i => <h4>{this.state.board.getValueOfId(i)}</h4>)}
+                {/* {this.display()} */}
+             
             </div>
         );
     }
