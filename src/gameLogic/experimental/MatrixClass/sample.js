@@ -7,8 +7,14 @@ let rando = () => Math.floor(Math.random()*5)
 
 myMatrix.fillEmptyValues(rando);
 
-console.log(Object.getOwnPropertyNames(myMatrix).length);
+// console.log(Object.getOwnPropertyNames(myMatrix));
 
-console.log(myMatrix.map);
 
 myMatrix.displayPretty()
+
+
+console.log(myMatrix.northEdge);
+console.log(myMatrix.southEdge);
+console.log(myMatrix.eastEdge);
+console.log(myMatrix.westEdge);
+
