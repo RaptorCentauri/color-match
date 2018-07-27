@@ -20,6 +20,7 @@ import deleteValueOfId from './deleteValueOfId'
 import fillEmptyValues from './fillEmptyValues'
 import getValueOfId from './getValueOfId'
 import setValueOfid from './setValueOfid'
+import convertToSquareBoard from './convertToSquareBoard'
 
 
 export {
@@ -44,7 +45,8 @@ export {
     getWestNeighbor, 
     replaceChainfromID, 
     setValueOfid,
-    getNorthNeighbor
+    getNorthNeighbor,
+    convertToSquareBoard
 }
 
 

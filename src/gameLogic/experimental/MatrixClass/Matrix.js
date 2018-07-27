@@ -1,29 +1,4 @@
-import convertToSquareBoard from '../../../gameLogic/convertToMatrix.js'
-
-import {
-    createMap, 
-    deleteValueOfId, 
-    destroyChainfromID, 
-    display, 
-    displayPretty, 
-    dropDown, 
-    fillEmptyValues, 
-    getAllEdges, 
-    getChainfromID, 
-    getEastEdge, 
-    getEastNeighbor, 
-    getEquivalentNeighbors, 
-    getNeighbors, 
-    getNorthEdge, 
-    getSouthEdge, 
-    getSouthNeighbor,
-    getValueOfId, 
-    getWestEdge, 
-    getWestNeighbor, 
-    replaceChainfromID, 
-    setValueOfid,
-    getNorthNeighbor
-} from './methods/index.js'
+import * as index from './methods/index'
 
 class Matrix {
     constructor(size){
@@ -32,29 +7,29 @@ class Matrix {
         this.getAllEdges();
     }
 
-    setValueOfid = setValueOfid
-    getValueOfId = getValueOfId
-    fillEmptyValues =fillEmptyValues
-    deleteValueOfId = deleteValueOfId
-    getNorthEdge = getNorthEdge
-    getEastEdge = getEastEdge
-    getSouthEdge = getSouthEdge
-    getWestEdge = getWestEdge
-    getAllEdges = getAllEdges
-    getNorthNeighbor = getNorthNeighbor;
-    getSouthNeighbor = getSouthNeighbor;
-    getEastNeighbor = getEastNeighbor;
-    getWestNeighbor = getWestNeighbor;
-    getNeighbors = getNeighbors;
-    getEquivalentNeighbors = getEquivalentNeighbors;
-    destroyChainfromID = destroyChainfromID;
-    getChainfromID = getChainfromID;
-    replaceChainfromID = replaceChainfromID;
-    display = display;
-    displayPretty = displayPretty
-    dropDown = dropDown
-    createMap = createMap;
-
+    setValueOfid = index.setValueOfid
+    getValueOfId = index.getValueOfId
+    fillEmptyValues = index.fillEmptyValues
+    deleteValueOfId = index.deleteValueOfId
+    getNorthEdge = index.getNorthEdge
+    getEastEdge = index.getEastEdge
+    getSouthEdge = index.getSouthEdge
+    getWestEdge = index.getWestEdge
+    getAllEdges = index.getAllEdges
+    getNorthNeighbor = index.getNorthNeighbor;
+    getSouthNeighbor = index.getSouthNeighbor;
+    getEastNeighbor = index.getEastNeighbor;
+    getWestNeighbor = index.getWestNeighbor;
+    getNeighbors = index.getNeighbors;
+    getEquivalentNeighbors = index.getEquivalentNeighbors;
+    destroyChainfromID = index.destroyChainfromID;
+    getChainfromID = index.getChainfromID;
+    replaceChainfromID = index.replaceChainfromID;
+    display = index.display;
+    displayPretty = index.displayPretty
+    dropDown = index.dropDown
+    createMap = index.createMap;
+    convertToSquareBoard = index.convertToSquareBoard
 }
 
 export default Matrix
