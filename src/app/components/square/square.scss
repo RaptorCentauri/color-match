@@ -1,6 +1,6 @@
 .square-style{
     // background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(175, 175, 175);
     box-sizing: border-box;
     width: 65px;
     height: 65px;
@@ -9,4 +9,20 @@
     align-items: center;
     margin: 0;
     padding: 0;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
 }

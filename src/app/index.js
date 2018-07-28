@@ -41,9 +41,6 @@ class App extends React.Component {
     handleSquareClick = (i) => {
         this.state.board.dropDown();
         this.setState({board: this.state.board })
-
-    //    let idVal = this.state.board.getValueOfId(i)
-        // console.log('idVal',idVal);
     }
 
     handleSquareClickDELETE = () =>{
@@ -52,21 +49,18 @@ class App extends React.Component {
         this.setState({board: this.state.board })
     }
 
-
+    setStyleFromValue = (i) =>{
+        if (i === 0) return 'blue'
+        if (i === 1) return 'red'
+        if (i === 2) return 'green'
+        if (i === 3) return 'yellow'
+    }
 
     componentDidMount = () => {
         console.log(this.state.board);
-
-    }
-
-    display = () =>{
-        return 
-   
-
     }
 
     render() {
-
         return (
             <div className='App'>
                 <div className='board-frame'>
@@ -74,22 +68,17 @@ class App extends React.Component {
 
                 {this.state.boardItterator.map(i => <Square key={i} 
                     value={this.state.board.getValueOfId(i)}
-                    // value={i} 
- 
-                    // clickHandler={this.handlePlay.bind(this, i)}
                     clickHandler={this.fullPlay.bind(this, i)}
+                    // colorValue={this.setStyleFromValue(3)}
+
+
+
 
                 />)}
 
                 </div>
-
-
-                {/* {this.state.boardItterator.map(i => <h4>{this.state.board.getValueOfId(i)}</h4>)} */}
-                {/* {this.display()} */}
                 <button onClick={this.handleSquareClick}>DROP BOARD!</button>   
                 <button onClick={this.handleSquareClickDELETE}>REFILL BOARD!</button>   
-
-             
             </div>
         );
     }
