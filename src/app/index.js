@@ -7,7 +7,7 @@ import Square from './components/square/square.jsx'
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(25);
+        let gameBoard = new Matrix(400);
         let genRandNum = () => Math.floor(Math.random()* 4)
         gameBoard.fillEmptyValues(genRandNum)
 
@@ -71,10 +71,11 @@ class App extends React.Component {
                 <div className={`board-frame-${this.state.board.size}`}>
                     {this.state.boardItterator.map(i => <Square key={i} 
                         value={this.state.board.getValueOfId(i)}
+                        size={this.state.board.size}
                         clickHandler={this.fullPlay.bind(this, i)}
                     />)}
                 </div>
-                Score:{this.state.score}
+                {/* Score:{this.state.score} */}
             </div>
         );
     }

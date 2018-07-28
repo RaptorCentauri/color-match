@@ -2,8 +2,8 @@
     // background-color: aquamarine;
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
-    width: 65px;
-    height: 65px;
+    // width: calc(inherit/5);
+    // height: calc(inherit/5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,32 +16,37 @@
     background-color: rgba(0, 0, 255, 0.445);
 }
 
-// .blue{
-//     background-color: rgba(0, 0, 255, 0.445);
-// }
-
 
 .square-color-1{
     background-color: red;
 }
 
-// .red{
-//     background-color: red;
-// }
 
 .square-color-2{
     background-color: green;
 }
-
-// .green{
-//     background-color: green;
-// }
 
 
 .square-color-3{
     background-color: yellow;
 }
 
-// .yellow{
-//     background-color: yellow;
-// }
+.square-size-16{
+    width: calc(inherit/4);
+    height: calc(inherit/4);
+}
+
+.square-size-25{
+    width: calc(inherit/5);
+    height: calc(inherit/5);
+}
+
+.square-size-36{
+    width: calc(inherit/6);
+    height: calc(inherit/6); 
+}
+
+.square-size-400{
+    width: calc(inherit/20);
+    height: calc(inherit/20); 
+}
