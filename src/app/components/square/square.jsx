@@ -26,7 +26,7 @@ class Square extends React.Component {
     render(){
         return(
         <div onClick={this.props.clickHandler} className={`square-style ${this.setColorByValue(this.props.value)}`}  >
-            <h5>{this.props.value}</h5>
+            {/* <h5>{this.props.value}</h5> */}
         </div>
         )
     }
