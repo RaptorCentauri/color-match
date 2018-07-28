@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.scss'
-import Matrix from '../gameLogic/experimental/MatrixClass/Matrix.js'
+import Matrix from '../gameLogic/MatrixClass/Matrix.js'
 import Square from './components/square/square.jsx'
 
 class App extends React.Component {
