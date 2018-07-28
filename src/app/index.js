@@ -2,11 +2,12 @@ import React from 'react';
 import { render } from 'react-dom';
 import './index.scss'
 import Matrix from '../gameLogic/experimental/MatrixClass/Matrix.js'
+import Square from './components/square/square.jsx'
 
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(16);
+        let gameBoard = new Matrix(25);
         let genRandNum = () => Math.floor(Math.random()* 4)
         gameBoard.fillEmptyValues(genRandNum)
 
@@ -18,10 +19,37 @@ class App extends React.Component {
     }
   
 
+    fullPlay = (i) => {
+        this.state.board.destroyChainfromID(i)
+        this.setState({board: this.state.board })
 
-    handleSquareClick = () => {
-        console.log('clicked');
+        this.state.board.dropDown();
+        this.setState({board: this.state.board })
 
+        let genRandNum = () => Math.floor(Math.random()* 4)
+        this.state.board.fillEmptyValues(genRandNum)
+        this.setState({board: this.state.board })
+
+    }
+
+    handlePlay = (i) => {
+        this.state.board.destroyChainfromID(i)
+        this.setState({board: this.state.board })
+
+    }
+
+    handleSquareClick = (i) => {
+        this.state.board.dropDown();
+        this.setState({board: this.state.board })
+
+    //    let idVal = this.state.board.getValueOfId(i)
+        // console.log('idVal',idVal);
+    }
+
+    handleSquareClickDELETE = () =>{
+        let genRandNum = () => Math.floor(Math.random()* 4)
+        this.state.board.fillEmptyValues(genRandNum)
+        this.setState({board: this.state.board })
     }
 
 
@@ -41,8 +69,26 @@ class App extends React.Component {
 
         return (
             <div className='App'>
-                {this.state.boardItterator.map(i => <h4>{this.state.board.getValueOfId(i)}</h4>)}
+                <div className='board-frame'>
+
+
+                {this.state.boardItterator.map(i => <Square key={i} 
+                    value={this.state.board.getValueOfId(i)}
+                    // value={i} 
+ 
+                    // clickHandler={this.handlePlay.bind(this, i)}
+                    clickHandler={this.fullPlay.bind(this, i)}
+
+                />)}
+
+                </div>
+
+
+                {/* {this.state.boardItterator.map(i => <h4>{this.state.board.getValueOfId(i)}</h4>)} */}
                 {/* {this.display()} */}
+                <button onClick={this.handleSquareClick}>DROP BOARD!</button>   
+                <button onClick={this.handleSquareClickDELETE}>REFILL BOARD!</button>   
+
              
             </div>
         );
