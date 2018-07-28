@@ -8,7 +8,6 @@ let TestsReporter = require('jasmine2-reporter').Jasmine2Reporter,
         suiteDuration: true,
         failuresSummary: false,
         summary:true,
-        // indent: '\t'
     };
 
 

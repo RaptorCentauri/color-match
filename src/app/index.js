@@ -20,6 +20,12 @@ class App extends React.Component {
   
 
     fullPlay = (i) => {
+
+        let N = this.state.board.getNeighbors(i)
+        console.log('N', N.size);
+        
+
+
         this.state.board.destroyChainfromID(i)
         this.setState({board: this.state.board })
 
@@ -64,21 +70,11 @@ class App extends React.Component {
         return (
             <div className='App'>
                 <div className='board-frame'>
-
-
-                {this.state.boardItterator.map(i => <Square key={i} 
-                    value={this.state.board.getValueOfId(i)}
-                    clickHandler={this.fullPlay.bind(this, i)}
-                    // colorValue={this.setStyleFromValue(3)}
-
-
-
-
-                />)}
-
+                    {this.state.boardItterator.map(i => <Square key={i} 
+                        value={this.state.board.getValueOfId(i)}
+                        clickHandler={this.fullPlay.bind(this, i)}
+                    />)}
                 </div>
-                <button onClick={this.handleSquareClick}>DROP BOARD!</button>   
-                <button onClick={this.handleSquareClickDELETE}>REFILL BOARD!</button>   
             </div>
         );
     }
