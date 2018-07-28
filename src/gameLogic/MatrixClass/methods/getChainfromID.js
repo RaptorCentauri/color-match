@@ -29,6 +29,9 @@ const getChainfromID = function(id){
 
     playChain(id);
 
+    // console.log('TBD', toBeDestroyed.size);
+    
+
     return toBeDestroyed;
 
 }

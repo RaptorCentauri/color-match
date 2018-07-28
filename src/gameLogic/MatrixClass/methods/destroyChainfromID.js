@@ -1,8 +1,15 @@
 const destroyChainfromID = function(id){
     let chain = this.getChainfromID(id);
-    chain.forEach(c => {
-        this.deleteValueOfId(c)
-    })
+
+    console.log('chain', chain.size);
+    
+    if (chain.size > 1) {
+        chain.forEach(c => {
+            this.deleteValueOfId(c)
+        })
+    }
+
+
 }
 
 export default destroyChainfromID
