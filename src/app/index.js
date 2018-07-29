@@ -7,27 +7,45 @@ import Square from './components/square/square.jsx'
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(400);
-        let genRandNum = () => Math.floor(Math.random()* 4)
+        let gameBoard = new Matrix(16);
+        let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         gameBoard.fillEmptyValues(genRandNum)
 
         this.state = {
             board: gameBoard,
             boardItterator: gameBoard.keysAsArray,
-            score: 0
+            score: 0,
+            level: 1
         }
 
     }
   
+
+    levelUp = (score) =>{
+        console.log('SCORE', score );
+        
+        let level = Math.floor((score/100));
+        console.log('LEVEL', level);
+        
+        this.setState({level: level+1})
+
+        
+    }
 
     getScore = (value, count) => {
         let moveScore = value * count;
         // console.log('v', value);
         // console.log('c', count);
 
-        
+        let total = this.state.score + moveScore;
         // console.log(moveScore);
-        this.setState({score: this.state.score + moveScore})
+        this.setState({score: total})
+        // this.levelUp()
+        this.levelUp(total);
+
+        
+
+  
     }
 
     fullPlay = (i) => {
@@ -38,8 +56,8 @@ class App extends React.Component {
         let S = this.state.board.getChainfromID(i)
         if (S.size > 1) {
             let value = this.state.board.getValueOfId(i);
-            console.log('INV', value);
             this.getScore(value, S.size)
+            // this.levelUp(this.state.score);
         }
 
         this.state.board.destroyChainfromID(i)
@@ -55,14 +73,15 @@ class App extends React.Component {
         this.setState({board: this.state.board })
 
 
-        let genRandNum = () => Math.floor(Math.random()* 4)
+        let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         this.state.board.fillEmptyValues(genRandNum)
         this.setState({board: this.state.board })
+
     }
 
 
     componentDidMount = () => {
-        console.log(this.state.board);
+        // console.log(this.state.board);
     }
 
     render() {
@@ -75,7 +94,8 @@ class App extends React.Component {
                         clickHandler={this.fullPlay.bind(this, i)}
                     />)}
                 </div>
-                {/* Score:{this.state.score} */}
+                Score:{this.state.score}
+                Level:{this.state.level}
             </div>
         );
     }
