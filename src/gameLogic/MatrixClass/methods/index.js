@@ -22,6 +22,7 @@ import getValueOfId from './getValueOfId'
 import setValueOfid from './setValueOfid'
 import convertToSquareBoard from './convertToSquareBoard'
 import getAsItterator from './getAsItterator';
+import hasEquivalentNeighbors from './hasEquivalentNeighbors';
 
 
 
@@ -49,7 +50,8 @@ export {
     setValueOfid,
     getNorthNeighbor,
     convertToSquareBoard,
-    getAsItterator
+    getAsItterator,
+    hasEquivalentNeighbors
 }
 
 

@@ -32,6 +32,7 @@ class Matrix {
     createMap = index.createMap
     convertToSquareBoard = index.convertToSquareBoard
     getAsItterator = index.getAsItterator
+    hasEquivalentNeighbors = index.hasEquivalentNeighbors
 }
 
 export default Matrix
