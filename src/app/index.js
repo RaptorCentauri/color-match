@@ -15,49 +15,31 @@ class App extends React.Component {
             board: gameBoard,
             boardItterator: gameBoard.keysAsArray,
             score: 0,
-            level: 1
+            level: 1,
+            gameOver: false
         }
 
     }
   
 
     levelUp = (score) =>{
-        console.log('SCORE', score );
-        
         let level = Math.floor((score/100));
-        console.log('LEVEL', level);
-        
         this.setState({level: level+1})
-
-
     }
 
     getScore = (value, count) => {
         let moveScore = value * count;
-        // console.log('v', value);
-        // console.log('c', count);
 
         let total = this.state.score + moveScore;
-        // console.log(moveScore);
         this.setState({score: total})
-        // this.levelUp()
         this.levelUp(total);
-
-        
-
-  
     }
 
     fullPlay = (i) => {
-
-        let value = this.state.board.getValueOfId(i);
-        // console.log('INV', value);
-
         let S = this.state.board.getChainfromID(i)
         if (S.size > 1) {
             let value = this.state.board.getValueOfId(i);
             this.getScore(value, S.size)
-            // this.levelUp(this.state.score);
         }
 
         this.state.board.destroyChainfromID(i)
@@ -71,42 +53,7 @@ class App extends React.Component {
         this.state.board.fillEmptyValues(genRandNum)
         this.setState({board: this.state.board })
 
-    }
-
-    setGameOver = () => {
-        this.state.board.setValueOfid(1, 2);
-        this.state.board.setValueOfid(2, 1);
-        this.state.board.setValueOfid(3, 2);
-        this.state.board.setValueOfid(4, 1);
-
-        this.state.board.setValueOfid(5, 1);
-        this.state.board.setValueOfid(6, 2);
-        this.state.board.setValueOfid(7, 1);
-        this.state.board.setValueOfid(8, 2);   
-        
-        this.state.board.setValueOfid(9, 2);
-        this.state.board.setValueOfid(10, 1);
-        this.state.board.setValueOfid(11, 2);
-        this.state.board.setValueOfid(12, 1);
-
-        this.state.board.setValueOfid(13, 1);
-        this.state.board.setValueOfid(14, 2);
-        this.state.board.setValueOfid(15, 1);
-        this.state.board.setValueOfid(16, 2);
-
-
-        // this.state.board.setValueOfid(17, 2);
-        // this.state.board.setValueOfid(18, 1);
-        // this.state.board.setValueOfid(19, 2);
-        // this.state.board.setValueOfid(20, 1);
-        // this.state.board.setValueOfid(21, 2);
-        // this.state.board.setValueOfid(22, 1);
-        // this.state.board.setValueOfid(23, 2);
-        // this.state.board.setValueOfid(24, 1);
-        // this.state.board.setValueOfid(25, 2);
-
-
-        this.setState({board: this.state.board})
+        this.gameOverCheck(1)
 
     }
 
@@ -116,7 +63,6 @@ class App extends React.Component {
 
         //even # board
         if(this.state.board.size % 2 === 0){
-            
             if(!hasEquivalentNeighbors){
                 if (i < this.state.board.size) {
                     if (this.state.board.westEdge.has(i)) {
@@ -133,7 +79,9 @@ class App extends React.Component {
                     }
                 }
                 else{
-                    console.log('GAME OVER!');
+                    this.setState({gameOver: true})
+                    // console.log('GAME OVER!');
+                    // alert('GAME OVER')
                 }
             }
         }
@@ -154,16 +102,24 @@ class App extends React.Component {
     }
 
 
-    // checkEquivalentNeighbors = (i) =>{
-    //     let O = this.gameOverCheck();
-    //     console.log('Over', O);
-        
-    //     // let N = this.state.board.getEquivalentNeighbors(i);
-    //     // console.log('N', N.size);
-    // }
 
     componentDidMount = () => {
-        // console.log(this.state.board);
+        if (this.state.gameOver === false) {
+            console.log('game over is false');
+        }
+        else{
+            console.log('game over is true');
+        }
+    }
+
+    componentDidUpdate = () => {
+        if (this.state.gameOver === false) {
+            // console.log('game over is false');
+        }
+        else{
+            console.log('game over is true');
+            // alert('GAME OVER!!')
+        }
     }
 
     render() {
@@ -179,10 +135,6 @@ class App extends React.Component {
                 </div>
                 Score:{this.state.score}
                 Level:{this.state.level}
-                <button onClick={this.setGameOver}>Set Game Over</button>
-                <button onClick={this.gameOverCheck.bind(this, 1)}>CHECK for Game Over</button>
-
-
             </div>
         );
     }
