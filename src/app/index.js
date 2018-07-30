@@ -7,7 +7,7 @@ import Square from './components/square/square.jsx'
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(25);
+        let gameBoard = new Matrix(16);
         let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         gameBoard.fillEmptyValues(genRandNum)
 
@@ -78,30 +78,32 @@ class App extends React.Component {
         this.state.board.setValueOfid(2, 1);
         this.state.board.setValueOfid(3, 2);
         this.state.board.setValueOfid(4, 1);
-        this.state.board.setValueOfid(5, 2);
-        this.state.board.setValueOfid(6, 1);
-        this.state.board.setValueOfid(7, 2);
-        this.state.board.setValueOfid(8, 1);   
+
+        this.state.board.setValueOfid(5, 1);
+        this.state.board.setValueOfid(6, 2);
+        this.state.board.setValueOfid(7, 1);
+        this.state.board.setValueOfid(8, 2);   
         
         this.state.board.setValueOfid(9, 2);
         this.state.board.setValueOfid(10, 1);
         this.state.board.setValueOfid(11, 2);
         this.state.board.setValueOfid(12, 1);
-        this.state.board.setValueOfid(13, 2);
-        this.state.board.setValueOfid(14, 1);
-        this.state.board.setValueOfid(15, 2);
-        this.state.board.setValueOfid(16, 1);
+
+        this.state.board.setValueOfid(13, 1);
+        this.state.board.setValueOfid(14, 2);
+        this.state.board.setValueOfid(15, 1);
+        this.state.board.setValueOfid(16, 2);
 
 
-        this.state.board.setValueOfid(17, 2);
-        this.state.board.setValueOfid(18, 1);
-        this.state.board.setValueOfid(19, 2);
-        this.state.board.setValueOfid(20, 1);
-        this.state.board.setValueOfid(21, 2);
-        this.state.board.setValueOfid(22, 1);
-        this.state.board.setValueOfid(23, 2);
-        this.state.board.setValueOfid(24, 1);
-        this.state.board.setValueOfid(25, 2);
+        // this.state.board.setValueOfid(17, 2);
+        // this.state.board.setValueOfid(18, 1);
+        // this.state.board.setValueOfid(19, 2);
+        // this.state.board.setValueOfid(20, 1);
+        // this.state.board.setValueOfid(21, 2);
+        // this.state.board.setValueOfid(22, 1);
+        // this.state.board.setValueOfid(23, 2);
+        // this.state.board.setValueOfid(24, 1);
+        // this.state.board.setValueOfid(25, 2);
 
 
         this.setState({board: this.state.board})
@@ -111,13 +113,42 @@ class App extends React.Component {
 
     gameOverCheck = (i) =>{
         let hasEquivalentNeighbors = this.state.board.hasEquivalentNeighbors(i);
-        if(!hasEquivalentNeighbors){
-            if (i < this.state.board.size) {
-                // let k = i+2
-                this.gameOverCheck(i+2)
+
+        //even # board
+        if(this.state.board.size % 2 === 0){
+            
+            if(!hasEquivalentNeighbors){
+                if (i < this.state.board.size) {
+                    if (this.state.board.westEdge.has(i)) {
+                        this.gameOverCheck(i+2)
+                    }
+                    else if (this.state.board.eastEdge.has(i)){
+                        this.gameOverCheck(i+1)
+                    }
+                    else if(i % 2 === 0){
+                        this.gameOverCheck(i+2)
+                    }
+                    else{
+                        this.gameOverCheck(i+3)
+                    }
+                }
+                else{
+                    console.log('GAME OVER!');
+                }
             }
-            else{
-                console.log('GAME OVER!');
+        }
+
+
+
+        //for odd # board
+        else{
+            if(!hasEquivalentNeighbors){
+                if (i < this.state.board.size) {
+                    this.gameOverCheck(i+2)
+                }
+                else{
+                    console.log('GAME OVER!');
+                }
             }
         }
     }
@@ -141,6 +172,7 @@ class App extends React.Component {
                 <div className={`board-frame-${this.state.board.size}`}>
                     {this.state.boardItterator.map(i => <Square key={i} 
                         value={this.state.board.getValueOfId(i)}
+                        id={i}
                         size={this.state.board.size}
                         clickHandler={this.fullPlay.bind(this, i)}
                     />)}
