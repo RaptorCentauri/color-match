@@ -1,13 +1,15 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.scss'
-import Matrix from '../gameLogic/MatrixClass/Matrix.js'
+import Matrix from 'matrix-map';
 import Square from './components/square/square.jsx'
+import Score from './components/score/score.jsx'
+
 
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(16);
+        let gameBoard = new Matrix(25);
         let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         gameBoard.fillEmptyValues(genRandNum)
 
@@ -80,12 +82,9 @@ class App extends React.Component {
                 }
                 else{
                     this.setState({gameOver: true})
-                    // console.log('GAME OVER!');
-                    // alert('GAME OVER')
                 }
             }
         }
-
 
 
         //for odd # board
@@ -112,13 +111,13 @@ class App extends React.Component {
         }
     }
 
-    componentDidUpdate = () => {
+    componentWillUpdate = () => {
         if (this.state.gameOver === false) {
             // console.log('game over is false');
         }
         else{
-            console.log('game over is true');
-            // alert('GAME OVER!!')
+            // console.log('game over is true');
+            alert('GAME OVER!!')
         }
     }
 
@@ -133,7 +132,7 @@ class App extends React.Component {
                         clickHandler={this.fullPlay.bind(this, i)}
                     />)}
                 </div>
-                Score:{this.state.score}
+                <Score score={this.state.score}/>
                 Level:{this.state.level}
             </div>
         );
