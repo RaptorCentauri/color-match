@@ -6,10 +6,11 @@ import Square from './components/square/square.jsx'
 import Score from './components/score/score.jsx'
 
 
+
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(25);
+        let gameBoard = new Matrix(16);
         let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         gameBoard.fillEmptyValues(genRandNum)
 
@@ -26,100 +27,118 @@ class App extends React.Component {
 
     levelUp = (score) =>{
         let level = Math.floor((score/100));
-        this.setState({level: level+1})
+        return level+1;
     }
 
-    getScore = (value, count) => {
+    calculateMoveScore = (value, count) => {
         let moveScore = value * count;
-
-        let total = this.state.score + moveScore;
-        this.setState({score: total})
-        this.levelUp(total);
+        return moveScore;
     }
 
-    fullPlay = (i) => {
-        let S = this.state.board.getChainfromID(i)
-        if (S.size > 1) {
-            let value = this.state.board.getValueOfId(i);
-            this.getScore(value, S.size)
+
+
+
+    playGame = (board, i) => {
+        let round ={
+            board: board,
+            score: 0
+        }  
+
+        if (board.getChainfromID(i).size > 1) {
+            let value = board.getValueOfId(i);
+            round.score = this.calculateMoveScore(value, board.getChainfromID(i).size);
         }
 
-        this.state.board.destroyChainfromID(i)
-        this.setState({board: this.state.board })
-
-        this.state.board.dropDown();
-        this.setState({board: this.state.board })
+        board.destroyChainfromID(i)
+        board.dropDown();
 
 
         let genRandNum = () => Math.floor((Math.random() * 4) + 1)
-        this.state.board.fillEmptyValues(genRandNum)
-        this.setState({board: this.state.board })
+        board.fillEmptyValues(genRandNum)
 
-        this.gameOverCheck(1)
-
+        return round
     }
 
 
-    gameOverCheck = (i) =>{
-        let hasEquivalentNeighbors = this.state.board.hasEquivalentNeighbors(i);
+
+    handleSquareClick = (i) => {
+        let round = this.playGame(this.state.board, i);
+        this.setState({board: round.board })
+        this.setState({score: this.state.score + round.score})
+    }
+
+
+    
+    checkForGameOver = (board, i) =>{
+        let hasEquivalentNeighbors = board.hasEquivalentNeighbors(i);
 
         //even # board
-        if(this.state.board.size % 2 === 0){
+        if(board.size % 2 === 0){
             if(!hasEquivalentNeighbors){
-                if (i < this.state.board.size) {
-                    if (this.state.board.westEdge.has(i)) {
-                        this.gameOverCheck(i+2)
+                if (i < board.size) {
+                    if (board.westEdge.has(i)) {
+                        this.checkForGameOver(board, i+2)
                     }
-                    else if (this.state.board.eastEdge.has(i)){
-                        this.gameOverCheck(i+1)
+                    else if (board.eastEdge.has(i)){
+                        this.checkForGameOver(board, i+1)
                     }
                     else if(i % 2 === 0){
-                        this.gameOverCheck(i+2)
+                        this.checkForGameOver(board, i+2)
                     }
                     else{
-                        this.gameOverCheck(i+3)
+                        this.checkForGameOver(board, i+3)
                     }
                 }
                 else{
-                    this.setState({gameOver: true})
+                    console.log('LINE 93 is important');
+                    return true;
                 }
             }
-        }
+            else{
+                return false;
+            }
 
+        }
 
         //for odd # board
         else{
             if(!hasEquivalentNeighbors){
-                if (i < this.state.board.size) {
-                    this.gameOverCheck(i+2)
+                if (i < board.size) {
+                    this.checkForGameOver(board, i+2)
                 }
                 else{
-                    console.log('GAME OVER!');
+                    console.log('LINE 105 is important');
+                    
+                    return true
                 }
             }
         }
+
+
     }
 
 
 
-    componentDidMount = () => {
-        if (this.state.gameOver === false) {
-            console.log('game over is false');
+
+
+    componentDidUpdate = () =>{
+        let newLevel = this.levelUp(this.state.score);
+
+        if (newLevel > this.state.level) {
+            this.setState({level: newLevel})
         }
-        else{
-            console.log('game over is true');
+
+        let isGameOver = this.checkForGameOver(this.state.board, 1);
+        console.log('IGO', isGameOver);
+        
+
+        if (isGameOver) {
+            console.log('IGO is true', isGameOver);
+            
+            this.setState({gameOver: isGameOver})
         }
     }
 
-    componentWillUpdate = () => {
-        if (this.state.gameOver === false) {
-            // console.log('game over is false');
-        }
-        else{
-            // console.log('game over is true');
-            alert('GAME OVER!!')
-        }
-    }
 
     render() {
         return (
@@ -129,11 +148,11 @@ class App extends React.Component {
                         value={this.state.board.getValueOfId(i)}
                         id={i}
                         size={this.state.board.size}
-                        clickHandler={this.fullPlay.bind(this, i)}
+                        clickHandler={this.handleSquareClick.bind(this, i)}
                     />)}
                 </div>
-                <Score score={this.state.score}/>
-                Level:{this.state.level}
+                <Score score={this.state.score} level={this.state.level}/>
+                {this.state.gameOver.toString()}  
             </div>
         );
     }
