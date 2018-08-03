@@ -1,0 +1,18 @@
+// if(board.size % 2 === 0){
+//     if (board.westEdge.has(i)) {
+//         console.log(`${i} is in row 1`);
+//         this.checkForGameOver(board, i+2)
+//     }
+//     else if (board.eastEdge.has(i)){
+//         console.log(`${i} is in row 4`);
+//         this.checkForGameOver(board, i+1)
+//     }
+//     else if(i % 2 === 0){
+//         console.log(`${i} is in row 2`);
+//         this.checkForGameOver(board, i+2)
+//     }
+//     else{
+//         console.log(`${i} is in row 3`);
+//         this.checkForGameOver(board, i+3)
+//     }
+// }
