@@ -1,11 +1,15 @@
 .App{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
 
     .board-frame{
-        border: 20px solid rgb(0, 0, 0);
-        border-radius: 25px;
+        margin-top: 50px;
+        border: 15px solid rgb(119, 118, 118);
+        border-radius: 10px;
         width: 33vw;
         height: 33vw;
         display: grid;

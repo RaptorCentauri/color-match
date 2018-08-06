@@ -1,3 +1,29 @@
-.score-style{
-    background-color: aquamarine;
+// .score-style{
+//     width: 100vw;
+//     height: 50px;
+//     background-color: rgb(212, 14, 230);
+//     display: flex;
+//     flex-direction: column;
+// }
+
+.titlebar-style{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(41, 247, 110);
+    display: flex;
+    justify-content: center;
+
+    h1{
+        background-color: beige;
+        // flex-grow: 1;
+        flex-basis: 75vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .score-style{
+        background-color: aqua;
+        flex-grow: 1;
+    }
+    // flex-direction: column;
 }
