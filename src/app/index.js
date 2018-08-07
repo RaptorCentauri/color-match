@@ -11,7 +11,7 @@ class App extends React.Component {
     constructor(){
         super()
         let gameBoard = new Matrix(25);
-        let genRandNum = () => Math.floor((Math.random() * 3) + 1)
+        let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         gameBoard.fillEmptyValues(genRandNum)
 
         this.state = {
@@ -50,7 +50,7 @@ class App extends React.Component {
         board.dropDown();
 
 
-        let genRandNum = () => Math.floor((Math.random() * 3) + 1)
+        let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         board.fillEmptyValues(genRandNum)
 
         return round
