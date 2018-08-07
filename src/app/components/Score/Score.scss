@@ -10,20 +10,21 @@
     width: 100vw;
     height: 50px;
     background-color: rgb(41, 247, 110);
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto 100px;
 
     h1{
         background-color: beige;
-        // flex-grow: 1;
-        flex-basis: 75vw;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .score-style{
-        background-color: aqua;
-        flex-grow: 1;
-    }
-    // flex-direction: column;
+        background-color: rgb(255, 0, 55);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }  
 }

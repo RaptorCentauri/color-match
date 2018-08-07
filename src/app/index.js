@@ -95,14 +95,14 @@ class App extends React.Component {
         return (
             <div className='App'>
                 <Score score={this.state.score} level={this.state.level}/>
-                {/* <div className={`board-frame board-size-${this.state.board.size}`}>
+                <div className={`board-frame board-size-${this.state.board.size}`}>
                     {this.state.boardItterator.map(i => <Square key={i} 
                         value={this.state.board.getValueOfId(i)}
                         id={i}
                         size={this.state.board.size}
                         clickHandler={this.handleSquareClick.bind(this, i)}
                     />)}
-                </div> */}
+                </div>
             </div>
         );
     }
