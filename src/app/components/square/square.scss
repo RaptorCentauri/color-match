@@ -1,11 +1,9 @@
 .square-style{
     border: 0.5px solid rgb(255, 255, 255);
     box-sizing: border-box;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     box-shadow: inset 0 0 5px #000000;
 }
+
 
 .square-color-4{
     background-image: linear-gradient(lightblue, blue);
@@ -13,20 +11,17 @@
 
 
 .square-color-1{
-    // background-color: red;
     background-image: linear-gradient(red, darkred)
 }
 
 
 .square-color-2{
-    // background-color: green;
     background-image: linear-gradient(lightgreen, green)
 
 }
 
 
 .square-color-3{
-    // background-color: yellow;
     background-image: linear-gradient(lightyellow, yellow)
 
 }

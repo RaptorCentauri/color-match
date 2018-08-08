@@ -1,10 +1,18 @@
+@mixin setBoardSizeClass($size){
+    .board-size-#{$size}{
+        grid-template-columns: repeat($size, auto);
+    }
+}
+
+
+
+
 .App{
     background-color: aliceblue;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
 
     .board-frame{
@@ -16,26 +24,8 @@
         display: grid;
     }
 
-    .board-size-16{
-        grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(4, auto);
+
+    @for $size from 2 to 10 {
+        @include setBoardSizeClass($size)
     }
-
-    .board-size-25{
-        grid-template-columns: repeat(5, auto) ;
-        grid-template-rows: repeat(5, auto);
-    }
-
-    .board-size-36{
-        grid-template-columns: repeat(6, auto);
-        grid-template-rows: repeat(6, auto);
-    }
-
-    .board-size-400{
-        grid-template-columns: repeat(20, auto);
-        grid-template-rows: repeat(20, auto);
-    }
-
-
-
 }

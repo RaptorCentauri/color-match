@@ -1,21 +1,24 @@
 
 
 .titlebar-style{
+    background-color: cornflowerblue;
     width: 100vw;
     height: 50px;
-    background-color: rgb(41, 247, 110);
     display: grid;
-    grid-template-columns: auto 100px;
+    grid-template-columns: [empty] 100px [title] auto [score] 100px;
+    // grid-template-areas: ". title score"
 
     h1{
-        background-color: beige;
+        // background-color: beige;
         display: flex;
         justify-content: center;
         align-items: center;
+        grid-column: title;
     }
 
     .score-style{
-        background-color: rgb(255, 0, 55);
+        grid-column: score;
+        // background-color: rgb(55, 42, 233);
         display: flex;
         flex-direction: column;
         justify-content: center;
