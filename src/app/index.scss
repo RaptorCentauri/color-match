@@ -11,16 +11,16 @@
     background-color: aliceblue;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: [title] auto [gameBoard] auto;
 
     .board-frame{
-        margin-top: 50px;
+        grid-row: gameBoard;
+        justify-self: center;
         border: 15px solid rgb(119, 118, 118);
         border-radius: 10px;
-        width: 33vw;
-        height: 33vw;
+        width: 50vw;
+        height: 50vw;
         display: grid;
     }
 

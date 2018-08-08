@@ -4,8 +4,7 @@ import './index.scss'
 import Matrix from 'matrix-map';
 import Square from './components/square/square.jsx'
 import Score from './components/score/score.jsx'
-
-
+import * as gameLogic from './gameLogic/index';
 
 class App extends React.Component {
     constructor(){
@@ -23,66 +22,24 @@ class App extends React.Component {
         }
 
     }
-  
-
-    levelUp = (score) =>{
-        let level = Math.floor((score/100));
-        return level+1;
-    }
-
-    calculateMoveScore = (value, count) => {
-        let moveScore = value * count;
-        return moveScore;
-    }
-
-    playGame = (board, i) => {
-        let round ={
-            board: board,
-            score: 0
-        }  
-
-        if (board.getChainfromID(i).size > 1) {
-            let value = board.getValueOfId(i);
-            round.score = this.calculateMoveScore(value, board.getChainfromID(i).size);
-        }
-
-        board.destroyChainfromID(i)
-        board.dropDown();
-
-
-        let genRandNum = () => Math.floor((Math.random() * 4) + 1)
-        board.fillEmptyValues(genRandNum)
-
-        return round
-    }
 
 
     handleSquareClick = (i) => {
-        let round = this.playGame(this.state.board, i);
+        let round = gameLogic.playGame(this.state.board, i);
         this.setState({board: round.board })
         this.setState({score: this.state.score + round.score})
     }
 
-    checkForGameOver = (board, i) =>{
-        do {
-            if (board.hasEquivalentNeighbors(i)){
-                return false
-            }
-            i++ 
-        } while (i<=board.size);
-
-        return true;
-    }
 
     componentDidUpdate = () =>{
         
-        let newLevel = this.levelUp(this.state.score);
+        let newLevel = gameLogic.levelUp(this.state.score);
 
         if (newLevel > this.state.level) {
             this.setState({level: newLevel})
         }
 
-        let isG = this.checkForGameOver(this.state.board, 1);
+        let isG = gameLogic.checkForGameOver(this.state.board, 1);
 
         // if (isG) {
         //     this.setState({gameOver: true})
