@@ -4,11 +4,8 @@
     }
 }
 
-
-
-
 .App{
-    background-color: aliceblue;
+    background-color: rgb(201, 223, 243);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -17,8 +14,9 @@
     .board-frame{
         grid-row: gameBoard;
         justify-self: center;
-        border: 15px solid rgb(119, 118, 118);
-        border-radius: 10px;
+        background-color: aliceblue;
+        padding: 10px;
+        box-shadow: inset 0 0 15px rgb(0, 0, 0);
         width: 50vw;
         height: 50vw;
         display: grid;

@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import './index.scss'
 import Matrix from 'matrix-map';
 import Square from './components/square/square.jsx'
-import Score from './components/score/score.jsx'
+import Titlebar from './components/Titlebar/Titlebar.jsx'
 import * as gameLogic from './gameLogic/index';
 
 class App extends React.Component {
@@ -18,7 +18,7 @@ class App extends React.Component {
             boardItterator: gameBoard.keysAsArray,
             score: 0,
             level: 1,
-            gameOver: false
+            gameOver: false,
         }
 
     }
@@ -28,6 +28,7 @@ class App extends React.Component {
         let round = gameLogic.playGame(this.state.board, i);
         this.setState({board: round.board })
         this.setState({score: this.state.score + round.score})
+
     }
 
 
@@ -51,7 +52,7 @@ class App extends React.Component {
     render() {
         return (
             <div className='App'>
-                <Score score={this.state.score} level={this.state.level}/>
+                <Titlebar score={this.state.score} level={this.state.level}/>
                 <div className={`board-frame board-size-${Math.sqrt(this.state.board.size)}`}>
                     {this.state.boardItterator.map(i => <Square key={i} 
                         value={this.state.board.getValueOfId(i)}
