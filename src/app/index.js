@@ -28,14 +28,21 @@ class App extends React.Component {
     handleSquareClick = (i) => {
         let round = gameLogic.playGame(this.state.board, i);
         // this.setState({board: round.board, animateClass: 'destroy'})
-        this.setState({animateClass: 'destroy'})
+        this.setState({animateClass: 'destroy'});
+
+
+        // setTimeout(
+        //     () => {
+        //         this.setState({board: round.board, animateClass: 'invisible'});
+        //     },1000
+        // );
 
 
         setTimeout(
             () => {
                 let drop = gameLogic.dropSquares(this.state.board);
-                // let fill = gameLogic.fillSquares(this.state.board);
-                this.setState({board: drop.board, animateClass: 'drop'});
+                let fill = gameLogic.fillSquares(this.state.board);
+                this.setState({board: fill.board, animateClass: 'drop'});
             },1000
         );
 
