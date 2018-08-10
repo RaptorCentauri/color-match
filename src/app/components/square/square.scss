@@ -1,32 +1,56 @@
 .square-style{
-    border: 0.5px solid rgb(255, 255, 255);
+    margin: 0.5px;
+    // border: 0.5px solid rgb(255, 255, 255);
     box-sizing: border-box;
-    box-shadow: inset 0 0 5px #000000;
+    box-shadow: inset 0 0 10px #000000;
 }
 
 .square-shrink{
-    // transform: scale(100%);
     padding: 50px;
+}
+
+.square-color-null{
+    transition: transform 1s ease-out;
+    transform-origin: bottom;
+    transform: scaleY(0);
 }
 
 
 .square-color-4{
+    transition: transform 1s ease-out;
+    transform: scaleY(1);
+    transform-origin: top;
+    // transform: scale(1);
+    // transform: translateY(100%);
     background-image: linear-gradient(lightblue, blue);
 }
 
 
 .square-color-1{
+    transition: transform 1s ease-out;
+    transform: scaleY(1);
+    transform-origin: top;
+
     background-image: linear-gradient(red, darkred)
 }
 
 
 .square-color-2{
+    transition: transform 1s ease-out;
+    // transform: translateY(100%);
+    transform: scaleY(1);
+    transform-origin: top;
+
     background-image: linear-gradient(lightgreen, green)
 
 }
 
-
 .square-color-3{
+    transition: transform 1s ease-out;
+    // transform: translateY(100%);
+    transform: scaleY(1);
+    transform-origin: top;
+
     background-image: linear-gradient(lightyellow, yellow)
 
 }

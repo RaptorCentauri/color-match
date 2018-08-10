@@ -27,8 +27,28 @@ class App extends React.Component {
     handleSquareClick = (i) => {
         let round = gameLogic.playGame(this.state.board, i);
         this.setState({board: round.board })
-        this.setState({score: this.state.score + round.score})
 
+        setTimeout(
+            () => {
+                let drop = gameLogic.dropSquares(this.state.board);
+                let fill = gameLogic.fillSquares(this.state.board);
+                this.setState({board: fill.board});
+
+                // this.setState({board: drop.board});
+            },1000
+        );
+
+        // setTimeout(
+        //     () => {
+        //         let fill = gameLogic.fillSquares(this.state.board);
+        //         this.setState({board: fill.board});
+        //     },2000
+        // );
+
+
+
+      
+        this.setState({score: this.state.score + round.score})
     }
 
 
@@ -56,8 +76,6 @@ class App extends React.Component {
                 <div className={`board-frame board-size-${Math.sqrt(this.state.board.size)}`}>
                     {this.state.boardItterator.map(i => <Square key={i} 
                         value={this.state.board.getValueOfId(i)}
-                        id={i}
-                        size={this.state.board.size}
                         clickHandler={this.handleSquareClick.bind(this, i)}
                     />)}
                 </div>
