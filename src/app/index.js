@@ -19,6 +19,7 @@ class App extends React.Component {
             score: 0,
             level: 1,
             gameOver: false,
+            animateClass: null,
         }
 
     }
@@ -26,15 +27,15 @@ class App extends React.Component {
 
     handleSquareClick = (i) => {
         let round = gameLogic.playGame(this.state.board, i);
-        this.setState({board: round.board })
+        // this.setState({board: round.board, animateClass: 'destroy'})
+        this.setState({animateClass: 'destroy'})
+
 
         setTimeout(
             () => {
                 let drop = gameLogic.dropSquares(this.state.board);
-                let fill = gameLogic.fillSquares(this.state.board);
-                this.setState({board: fill.board});
-
-                // this.setState({board: drop.board});
+                // let fill = gameLogic.fillSquares(this.state.board);
+                this.setState({board: drop.board, animateClass: 'drop'});
             },1000
         );
 
@@ -74,7 +75,8 @@ class App extends React.Component {
             <div className='App'>
                 <Titlebar score={this.state.score} level={this.state.level}/>
                 <div className={`board-frame board-size-${Math.sqrt(this.state.board.size)}`}>
-                    {this.state.boardItterator.map(i => <Square key={i} 
+                    {this.state.boardItterator.map(i => <Square key={i}
+                        animateClass={this.state.animateClass} 
                         value={this.state.board.getValueOfId(i)}
                         clickHandler={this.handleSquareClick.bind(this, i)}
                     />)}
