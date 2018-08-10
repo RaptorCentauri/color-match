@@ -40,17 +40,18 @@
     // animation: destroy 0.5s ease forwards;
 }
 
-// .square-animate-drop{
-//     animation: drop  ease forwards;
+.square-animate-drop{
+    transform: scale(1);
+    // animation: drop  ease forwards;
 
-//     // border-radius: 50%;
-//     // transition: 5s;
-//     // top: 0;
-//     // background-color: black
-//     // transition: transform 0.5s;
-//     // transform-origin: top;
-//     // transform: scale(1);  
-// }
+    // border-radius: 50%;
+    // transition: 5s;
+    // top: 0;
+    // background-color: black
+    // transition: transform 0.5s;
+    // transform-origin: top;
+    // transform: scale(1);  
+}
 // .square-animate-invisible{
 //     transition: transform 0.5s;
 //     background-color: aquamarine;

@@ -6,24 +6,27 @@ class Square extends React.Component{
         super(props);
         this.state= {
             value: this.props.value,
-            animateClass: this.props.animateClass
+            animateClass: 'initial'
         }
     }
 
     static getDerivedStateFromProps(nextProps, prevState){
         if(nextProps.value != prevState.value){
             if (nextProps.value === null) {
+                console.log('THERE IS A NULL', nextProps.id);
                 return {animateClass: 'destroy'}
             }
 
             if (nextProps.value != null) {
-                return {value: nextProps.value, animateClass: null}
+                console.log('Null has been filled', nextProps.id);
+
+                return {value: nextProps.value, animateClass: 'drop'}
             }
         }
         else return null;
     }
 
-    
+
     // componentDidUpdate = (prevProps) =>{
     //     console.log('prev', prevProps.value);
     //     console.log('this', this.props.value);
@@ -43,6 +46,7 @@ class Square extends React.Component{
     render(){
         return(
             <div onClick={this.props.clickHandler} className={` id-${this.props.id} square-style square-color-${this.state.value} square-animate-${this.state.animateClass}`}>
+            {this.state.animateClass}
             </div>
         )
     }
