@@ -5,9 +5,9 @@
     box-shadow: inset 0 0 10px #000000;
 }
 
-.square-shrink{
-    padding: 50px;
-}
+// .square-shrink{
+//     padding: 50px;
+// }
 
 
 @keyframes destroy{
@@ -20,33 +20,37 @@
 }
 
 
-@keyframes drop{
-    from{top: -100%};
-    // 0%{
-    //     top: 0;
-    //     // transform: scale(0)
-    // }
-    // 100%{
-    //     top: 10;
-    //     // transform: scale(1)
-    // }
-}
+// @keyframes drop{
+//     from{top: -100%};
+//     // 0%{
+//     //     top: 0;
+//     //     // transform: scale(0)
+//     // }
+//     // 100%{
+//     //     top: 10;
+//     //     // transform: scale(1)
+//     // }
+// }
 
 .square-animate-destroy{
-    animation: destroy 0.5s ease forwards;
+    // background-color: violet;
+    transition: transform 1s ease-out;
+    transform: scale(0);
+    // opacity: 0;
+    // animation: destroy 0.5s ease forwards;
 }
 
-.square-animate-drop{
-    animation: drop 10s ease forwards;
+// .square-animate-drop{
+//     animation: drop  ease forwards;
 
-    // border-radius: 50%;
-    // transition: 5s;
-    // top: 0;
-    // background-color: black
-    // transition: transform 0.5s;
-    // transform-origin: top;
-    // transform: scale(1);  
-}
+//     // border-radius: 50%;
+//     // transition: 5s;
+//     // top: 0;
+//     // background-color: black
+//     // transition: transform 0.5s;
+//     // transform-origin: top;
+//     // transform: scale(1);  
+// }
 // .square-animate-invisible{
 //     transition: transform 0.5s;
 //     background-color: aquamarine;
