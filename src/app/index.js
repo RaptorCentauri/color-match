@@ -33,6 +33,8 @@ class App extends React.Component {
         setTimeout(
             () => {
                 let drop = gameLogic.dropSquares(this.state.board);
+                console.log('DROP', drop.board.map);
+                
                 this.setState({board: drop.board});
             },1000
         );
@@ -66,7 +68,7 @@ class App extends React.Component {
                 <div className={`board-frame board-size-${Math.sqrt(this.state.board.size)}`}>
                     {this.state.boardItterator.map(i => <Square key={i}
                         id={i}
-                        animateClass={this.state.animateClass} 
+                        // animateClass={this.state.animateClass} 
                         value={this.state.board.getValueOfId(i)}
                         clickHandler={this.handleSquareClick.bind(this, i)}
                     />)}
