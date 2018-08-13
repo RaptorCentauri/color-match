@@ -55,23 +55,13 @@ class App extends React.Component {
         if (newLevel > this.state.level) {
             this.setState({level: newLevel})
         }
-
-        console.log('an update has gdon');
         
         let isG = gameLogic.checkForGameOver(this.state.board, 1);
 
 
-        console.log('G', isG);
         if (this.state.gameOver != isG) {
-            console.log('im a litte tea pot');
-            
             this.setState({gameOver: isG})
         }
-        
-        // if (isG === true) {
-        //     this.setState({gameOver: isG})
-        // }
-
     }
 
 
