@@ -8,14 +8,7 @@ const playGame = (board, i) => {
         let value = board.getValueOfId(i);
         round.score = value * board.getChainfromID(i).size;
     }
-
     board.destroyChainfromID(i)
-    // board.dropDown();
-
-
-    // let genRandNum = () => Math.floor((Math.random() * 4) + 1)
-    // board.fillEmptyValues(genRandNum)
-
     return round
 }
 

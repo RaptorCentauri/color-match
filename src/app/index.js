@@ -10,8 +10,10 @@ import Gameover from './components/Gameover/Gameover';
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(16);
-        let genRandNum = () => Math.floor((Math.random() * 4) + 1)
+        this.numberOfSquares = 25;
+        this.numberOfValues = 7;
+        let gameBoard = new Matrix(this.numberOfSquares);
+        let genRandNum = () => Math.floor((Math.random() * (this.numberOfValues - 1)) + 1);
         gameBoard.fillEmptyValues(genRandNum)
 
         this.state = {
@@ -30,7 +32,7 @@ class App extends React.Component {
 
         setTimeout(
             () => {
-                let drop = gameLogic.dropSquares(this.state.board);
+                let drop = gameLogic.dropSquares(this.state.board, this.numberOfValues);
                 this.setState({board: drop.board});
             },1000
         );
@@ -44,7 +46,6 @@ class App extends React.Component {
         this.setState({level: 10})
         this.setState({score: 0})
         this.setState({gameOver: false});
-        
     }
 
 
