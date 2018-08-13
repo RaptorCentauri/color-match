@@ -1,9 +1,9 @@
-const resetBoard = (board) => {
+const resetBoard = (board, value) => {
     let reset ={
         board: board
     }
-    let genRandNum = () => Math.floor((Math.random() * 4) + 1)
     
+    let genRandNum = () => Math.floor((Math.random() * (value - 1)) + 1);
     
     board.resetMatrix();
     board.fillEmptyValues(genRandNum)
