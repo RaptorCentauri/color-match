@@ -5,11 +5,12 @@ import Matrix from 'matrix-map';
 import Square from './components/square/square.jsx'
 import Titlebar from './components/Titlebar/Titlebar.jsx'
 import * as gameLogic from './gameLogic/index';
+import Gameover from './components/Gameover/Gameover';
 
 class App extends React.Component {
     constructor(){
         super()
-        let gameBoard = new Matrix(25);
+        let gameBoard = new Matrix(6*6);
         let genRandNum = () => Math.floor((Math.random() * 4) + 1)
         gameBoard.fillEmptyValues(genRandNum)
 
@@ -19,11 +20,8 @@ class App extends React.Component {
             score: 0,
             level: 1,
             gameOver: false,
-            // animateClass: null,
         }
-
     }
-
 
     handleSquareClick = (i) => {
         let round = gameLogic.playGame(this.state.board, i);
@@ -33,13 +31,10 @@ class App extends React.Component {
         setTimeout(
             () => {
                 let drop = gameLogic.dropSquares(this.state.board);
-                console.log('DROP', drop.board.map);
-                
                 this.setState({board: drop.board});
             },1000
         );
 
-      
         this.setState({score: this.state.score + round.score})
     }
 
@@ -54,9 +49,9 @@ class App extends React.Component {
 
         let isG = gameLogic.checkForGameOver(this.state.board, 1);
 
-        // if (isG) {
-        //     this.setState({gameOver: true})
-        // }
+        if (isG === true) {
+            this.setState({gameOver: true})
+        }
 
     }
 
@@ -65,14 +60,22 @@ class App extends React.Component {
         return (
             <div className='App'>
                 <Titlebar score={this.state.score} level={this.state.level}/>
-                <div className={`board-frame board-size-${Math.sqrt(this.state.board.size)}`}>
-                    {this.state.boardItterator.map(i => <Square key={i}
-                        id={i}
-                        // animateClass={this.state.animateClass} 
-                        value={this.state.board.getValueOfId(i)}
-                        clickHandler={this.handleSquareClick.bind(this, i)}
-                    />)}
+
+                <div className={`board-frame `}>
+
+                    <Gameover />
+
+                    <div className={`board-size-${Math.sqrt(this.state.board.size)}`}>
+                        {this.state.boardItterator.map(i => <Square key={i}
+                            id={i}
+                            value={this.state.board.getValueOfId(i)}
+                            clickHandler={this.handleSquareClick.bind(this, i)}
+                        />)}
+                    </div>
+         
+
                 </div>
+
             </div>
         );
     }

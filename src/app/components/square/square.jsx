@@ -11,25 +11,15 @@ class Square extends React.Component{
     }
 
     static getDerivedStateFromProps(nextProps, prevState){
-            console.log(`EVAL ${nextProps.id}`);
             if (nextProps.value === null) {
-                console.log(`Setting ${nextProps.id} to destory`);
-                console.log('===============================================');
-                
                 return {animateClass: 'destroy'}
             }
 
             if (nextProps.value != null) {
-                console.log(`Setting ${nextProps.id} to drop`);
-                console.log('===============================================');
-
                 return {value: nextProps.value, animateClass: 'drop'}
             }
         else return null;
     }
-
-
-
 
     render(){
         return(
@@ -41,8 +31,6 @@ class Square extends React.Component{
 }
 
 
-// const Square = (props) => 
-// <div onClick={props.clickHandler} className={`square-style square-color-${props.value} ${props.id}`}>
-// </div>
+
 export default Square;
 
