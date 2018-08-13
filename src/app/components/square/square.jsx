@@ -1,5 +1,6 @@
 import React from 'react';
 import './square.scss';
+import MyContext from '../../context/MyContext';
 
 class Square extends React.Component{
     constructor(props){
@@ -23,8 +24,19 @@ class Square extends React.Component{
 
     render(){
         return(
-            <div onClick={this.props.clickHandler} className={` id-${this.props.id} square-style square-color-${this.state.value} square-animate-${this.state.animateClass}`}>
-            </div>
+            <MyContext.Consumer>
+            {(context) => (
+                    <div onClick={context.squareClick.bind(this, this.props.id)} 
+                    className={` id-${this.props.id} square-style square-color-${this.state.value} square-animate-${this.state.animateClass}`}>
+                    </div>
+            )}
+    
+        </MyContext.Consumer>
+
+
+
+
+        
         )
     }
 

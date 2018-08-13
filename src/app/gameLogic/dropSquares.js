@@ -1,5 +1,4 @@
 const dropSquares = (board, value) => {
-    console.log('V', value)
 
     let drop ={
         board: board
