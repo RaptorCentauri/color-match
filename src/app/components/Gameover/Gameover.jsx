@@ -5,7 +5,8 @@ import './Gameover.scss';
 
 const Gameover = (props) => 
 <div className={`Gameover-style`}>
-    <h1>GAME OVER</h1>
+    GAME OVER
+    <button className={`play-again-button`} onClick={props.playAgainClick}>Play Again?</button>
 </div>
 
 export default Gameover;

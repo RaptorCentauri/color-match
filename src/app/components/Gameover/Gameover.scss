@@ -2,17 +2,24 @@
 
 .Gameover-style{
     color: white;
-    // justify-self: center;
-    // align-self: center;
-    // grid-row: 1;
-    // width: inherit;
-    // height: inherit;
-    // display: flex;/
-    // justify-content: center;
-    // align-items: center;
-
-    // font-size: 7em;
-    // color: white;
-    // text-shadow: 5px 3px rgb(0, 0, 0);
+    font-size: 4.5em;
+    background-color: rgba(59, 59, 59, 0.877);
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 5px 4px rgb(0, 0, 0);
     z-index: 1;
+
+    .play-again-button{
+        color: white;
+        background: none;
+        font-size: 0.5em;
+        border: 5px solid white;
+        width: 50%;
+        height: 20%;
+    }
+
 }

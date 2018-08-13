@@ -38,6 +38,15 @@ class App extends React.Component {
         this.setState({score: this.state.score + round.score})
     }
 
+    handleNewGameClick = () => {
+        let reset = gameLogic.resetBoard(this.state.board);
+        this.setState({board: reset.board})
+        this.setState({level: 10})
+        this.setState({score: 0})
+        this.setState({gameOver: false});
+        
+    }
+
 
     componentDidUpdate = () =>{
         
@@ -62,8 +71,7 @@ class App extends React.Component {
                 <Titlebar score={this.state.score} level={this.state.level}/>
 
                 <div className={`board-frame `}>
-
-                    <Gameover />
+                    {this.state.gameOver === true ?  <Gameover playAgainClick={this.handleNewGameClick} /> : false}
 
                     <div className={`board-size-${Math.sqrt(this.state.board.size)}`}>
                         {this.state.boardItterator.map(i => <Square key={i}
