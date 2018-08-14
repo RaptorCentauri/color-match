@@ -4,7 +4,6 @@
         height: inherit;
         display: grid;
         grid-template-columns: repeat($size, auto);
-        // z-index: 0;
         position: absolute;
     }
 }

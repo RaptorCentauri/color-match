@@ -7,17 +7,53 @@
     width: 100vw;
     height: 50px;
     display: grid;
-    grid-template-columns: [empty] 100px [title] auto [score] 100px;
+    grid-template-columns: [empty] 1fr [title] 4fr [score] 1fr;
+    align-items: center;
 
-    h1{
+    .title{
         grid-column: title;
         justify-self: center;
-        align-self: center;
+        font-size: 1em;
+
+        @media only screen 
+        and (max-width : 600px) 
+        and (orientation : portrait)  {
+
+            font-size: 2em;
+        }
     }
 
     .score-style{
         grid-column: score;
-        justify-self: start;
-        align-self: center;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+
+        @media only screen 
+        and (max-width : 375px) 
+        and (orientation : portrait)  {
+            // flex-direction: row;
+            // padding-right: 1em;
+            // display: flex;
+            justify-self: end;
+            font-size: 1em;
+        }
+
+        .titleGroup{
+            display: flex;
+            @media only screen 
+            and (max-width : 600px) 
+            and (orientation : portrait)  {
+                padding-right: 1em;
+            }
+        }
+
+        .titleLabel{
+            @media only screen 
+            and (max-width : 600px) 
+            and (orientation : portrait)  {
+                // display: none;
+            }
+        }
     }  
 }
