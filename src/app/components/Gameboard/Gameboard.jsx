@@ -1,43 +1,20 @@
 import React from 'react';
 import './Gameboard.scss';
 import Square from '../square/square';
-import Matrix from 'matrix-map';
-import * as gameLogic from '../../gameLogic/index';
 import MyContext from '../../context/MyContext';
+// import * as gameLogic from '../../gameLogic/index';
 
 
 class Gameboard extends React.Component{
-    // componentDidUpdate = (prevContext) =>{
-    //         // console.log(`yes it did`, prevContext.state.board);
 
-            
-        
-        // let newLevel = gameLogic.levelUp(this.state.score);
-
-        // if (newLevel > this.state.level) {
-        //     this.setState({level: newLevel})
-        // }
-        
-    // //     let isG = gameLogic.checkForGameOver(this.state.board, 1);
-
-
-    // //     if (this.state.gameOver != isG) {
-    // //         this.setState({gameOver: isG})
-    // //     }
-    // }
+    componentDidUpdate = (prevProps, prevState) =>{
+        console.log('yes updates', prevProps.gameOver);
+    }
 
     render(){
+        const {gameOver, children} = this.props;
         return(
-            <MyContext.Consumer>
-            {(context) => (
-                <div className={`board-size-${Math.sqrt(context.state.board.size)}`}>
-                    {context.state.boardItterator.map(i => <Square key={i}
-                        id={i}
-                        value={context.state.board.getValueOfId(i)}
-                        />)} 
-                </div>
-            )}
-            </MyContext.Consumer>
+            {children}
         )
     }
 
@@ -45,5 +22,73 @@ class Gameboard extends React.Component{
 
 
 
-export default Gameboard;
+export default props =>(
+    <MyContext.Consumer>
+    {(context) => (
+        <div className={`board-size-${Math.sqrt(context.state.board.size)}`}>
+            {context.state.boardItterator.map(i => <Square key={i}
+                id={i}
+                value={context.state.board.getValueOfId(i)}
+                />)} 
+        </div>
+    )}
+    </MyContext.Consumer>
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Gameboard extends React.Component{
+
+//     componentDidUpdate = (nextState, nextProps, nextContext) =>{
+//         console.log('yes updates', nextContext);
+        
+  
+        
+//         // this.setState({score: 100})
+//         // console.log('LVL', contex.state.level);
+//     }
+
+//     render(){
+//         return(
+//             <MyContext.Consumer>
+//             {(context) => (
+//                 <div className={`board-size-${Math.sqrt(context.state.board.size)}`}>
+//                     {context.state.boardItterator.map(i => <Square key={i}
+//                         id={i}
+//                         value={context.state.board.getValueOfId(i)}
+//                         />)} 
+//                 </div>
+//             )}
+//             </MyContext.Consumer>
+//         )
+//     }
+
+// }
+
+
+
+// export default Gameboard;
+
+
 

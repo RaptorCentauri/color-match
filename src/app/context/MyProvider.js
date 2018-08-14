@@ -9,11 +9,10 @@ class MyProvider extends React.Component {
     constructor(){
         super();
     this.numberOfSquares = 16;
-    this.numberOfValues = 10;
+    this.numberOfValues = 4;
     let gameBoard = new Matrix(this.numberOfSquares);
     let genRandNum = () => Math.floor((Math.random() * (this.numberOfValues - 1)) + 1);
     gameBoard.fillEmptyValues(genRandNum)
-
         this.state = {
             board: gameBoard,
             boardItterator: gameBoard.keysAsArray,
@@ -46,26 +45,29 @@ class MyProvider extends React.Component {
 
                     this.setState({score: this.state.score + round.score})
 
-                    let newLevel = gameLogic.levelUp(this.state.score);
+                    // let newLevel = gameLogic.levelUp(this.state.score);
 
-                    if (newLevel > this.state.level) {
-                        this.setState({level: newLevel})
-                    }
+                    // if (newLevel > this.state.level) {
+                    //     this.setState({level: newLevel})
+                    // }
 
 
-                    let isG = gameLogic.checkForGameOver(this.state.board, 1);
+                    // let isG = gameLogic.checkForGameOver(this.state.board, 1);
 
-                        if (this.state.gameOver != isG) {
-                            this.setState({gameOver: isG})
-                        }
+                    //     if (this.state.gameOver != isG) {
+                    //         this.setState({gameOver: isG})
+                    //     }
 
                 },
-                checkForGameOver: () => {
-                    let isG = gameLogic.checkForGameOver(this.state.board, 1);
 
-                    if (this.state.gameOver != isG) {
-                        this.setState({gameOver: isG})
-                    }
+                gameOverCheck: () => {
+                    console.log('GOC fired');
+                    
+                    // let isG = gameLogic.checkForGameOver(this.state.board, 1);
+
+                    // if (this.state.gameOver != isG) {
+                        // this.setState({gameOver: isG})
+                    // }
                 }
 
                 
