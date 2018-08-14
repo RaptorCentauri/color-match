@@ -1,30 +1,25 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.scss'
-import Titlebar from './components/Titlebar/Titlebar.jsx'
-import Gameover from './components/Gameover/Gameover';
-import Gameboard from './components/Gameboard/Gameboard';
-import MyProvider from './context/MyProvider';
-import MyContext from './context/MyContext';
-
-
+import {AppContext, AppProvider} from './contextAndProvider/index.js'
+import {Titlebar, Gameboard, Gameover} from './components/index.js'
 
 class App extends React.Component {
     render() {
         return (
-            <MyProvider>
+            <AppProvider>
             <div className='App'>
                 <Titlebar />
-                <MyContext.Consumer>
+                <AppContext.Consumer>
                     {(context) => (
                             <div className={`board-frame`}>
                                 {context.state.gameOver === true ?  <Gameover /> : false}
                                 <Gameboard />
                             </div>
                     )}
-                </MyContext.Consumer>
+                </AppContext.Consumer>
             </div>
-            </MyProvider>
+            </AppProvider>
         );
     }
 }

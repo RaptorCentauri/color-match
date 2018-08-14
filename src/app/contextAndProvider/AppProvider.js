@@ -1,15 +1,13 @@
 import React from 'react';
-import MyContext from './MyContext';
+import AppContext from './AppContext';
 import Matrix from 'matrix-map';
 import * as gameLogic from '../gameLogic/index';
 
-
-
-class MyProvider extends React.Component {
+class AppProvider extends React.Component {
     constructor(){
     super();
-    this.numberOfSquares = 16;
-    this.numberOfValues = 10;
+    this.numberOfSquares = 25;
+    this.numberOfValues = 6;
     let gameBoard = new Matrix(this.numberOfSquares);
     let genRandNum = () => Math.floor((Math.random() * (this.numberOfValues - 1)) + 1);
     gameBoard.fillEmptyValues(genRandNum)
@@ -22,26 +20,30 @@ class MyProvider extends React.Component {
         }
     }
 
-    componentDidUpdate = () => {
+    nextLevelCheck = () => {
         let newLevel = gameLogic.levelUp(this.state.score);
 
         if (newLevel > this.state.level) {
             this.setState({level: newLevel})
         }
+    }
 
-        // gameOverCheck: () => {
-            let isG = gameLogic.checkForGameOver(this.state.board, 1);
+    gameOverCheck = () => {
+        let isG = gameLogic.checkForGameOver(this.state.board, 1);
 
-            if (this.state.gameOver != isG) {
-                this.setState({gameOver: isG})
-            }
-        // }
-        
+        if (this.state.gameOver != isG) {
+            this.setState({gameOver: isG})
+        }
+    }
+
+    componentDidUpdate = () => {
+        this.nextLevelCheck();
+        this.gameOverCheck();  
     }
 
     render() {
         return(
-            <MyContext.Provider value={{
+            <AppContext.Provider value={{
                 state: this.state,
                 playAgain: () => {
                     let reset = gameLogic.resetBoard(this.state.board, this.numberOfValues);
@@ -62,31 +64,13 @@ class MyProvider extends React.Component {
                     );
 
                     this.setState({score: this.state.score + round.score})
-
                 },
-                // nextLevelCheck: () => {
-                //     let newLevel = gameLogic.levelUp(this.state.score);
-
-                //     if (newLevel > this.state.level) {
-                //         this.setState({level: newLevel})
-                //     }
-
-                // },
-
-                // gameOverCheck: () => {
-                //     let isG = gameLogic.checkForGameOver(this.state.board, 1);
-
-                //     if (this.state.gameOver != isG) {
-                //         this.setState({gameOver: isG})
-                //     }
-                // }
                 
                 }}>
-
                 {this.props.children}
-            </MyContext.Provider>
+            </AppContext.Provider>
         )
     }
 }
 
-export default MyProvider;
+export default AppProvider;
