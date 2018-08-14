@@ -13,12 +13,11 @@
     .title{
         grid-column: title;
         justify-self: center;
-        font-size: 1em;
+        font-size: 2em;
 
         @media only screen 
         and (max-width : 600px) 
         and (orientation : portrait)  {
-
             font-size: 2em;
         }
     }
@@ -32,9 +31,6 @@
         @media only screen 
         and (max-width : 375px) 
         and (orientation : portrait)  {
-            // flex-direction: row;
-            // padding-right: 1em;
-            // display: flex;
             justify-self: end;
             font-size: 1em;
         }

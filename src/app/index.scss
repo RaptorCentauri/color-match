@@ -8,25 +8,6 @@ $breakpoint: 900px;
     display: grid;
     grid-template-rows: [title] auto [gameBoard] auto;
 
-    @media only screen 
-    and (max-width : 375px) 
-    and (orientation : portrait)  {
-        // padding-top: env(safe-area-inset-top);
-        // height: 90vh;
-        background-color: greenyellow;
-     }
-
-     @media only screen 
-     and (device-width : 375px) 
-     and (device-height : 812px) 
-     and (-webkit-device-pixel-ratio : 3)
-     and (orientation : landscape)  {
-         background-color: rgb(238, 47, 255);
-      }
-     
-    
-
-
     .board-frame{
         display: flex;
         justify-content: center;
@@ -40,17 +21,12 @@ $breakpoint: 900px;
         height: 50vw;
 
         @media only screen 
-        and (device-width : 375px) 
-        and (device-height : 812px) 
-        // and (-webkit-device-pixel-ratio : 3)
+        and (max-width : 420px) 
         and (orientation : portrait)  {
             width: 80vw;
             height: 80vw;
             align-self: start;
          }
-
- 
-
     }
 
 }
