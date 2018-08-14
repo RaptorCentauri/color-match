@@ -5,34 +5,34 @@ import * as gameLogic from '../gameLogic/index';
 
 class AppProvider extends React.Component {
     constructor(){
-    super();
-    this.numberOfSquares = 25;
-    this.numberOfValues = 6;
-    let gameBoard = new Matrix(this.numberOfSquares);
-    let genRandNum = () => Math.floor((Math.random() * (this.numberOfValues - 1)) + 1);
-    gameBoard.fillEmptyValues(genRandNum)
-        this.state = {
-            board: gameBoard,
-            boardItterator: gameBoard.keysAsArray,
-            score: 0,
-            level: 1,
-            gameOver: false,
-        }
+        super();
+        this.numberOfSquares = 25;
+        this.numberOfValues = 6;
+        let gameBoard = new Matrix(this.numberOfSquares);
+        let genRandNum = () => Math.floor((Math.random() * (this.numberOfValues - 1)) + 1);
+        gameBoard.fillEmptyValues(genRandNum)
+            this.state = {
+                board: gameBoard,
+                boardItterator: gameBoard.keysAsArray,
+                score: 0,
+                level: 1,
+                gameOver: false,
+            }
     }
 
     nextLevelCheck = () => {
-        let newLevel = gameLogic.levelUp(this.state.score);
+        let nextLevel = gameLogic.levelUp(this.state.score);
 
-        if (newLevel > this.state.level) {
-            this.setState({level: newLevel})
+        if (nextLevel > this.state.level) {
+            this.setState({level: nextLevel})
         }
     }
 
     gameOverCheck = () => {
-        let isG = gameLogic.checkForGameOver(this.state.board, 1);
-
-        if (this.state.gameOver != isG) {
-            this.setState({gameOver: isG})
+        let isGameOver = gameLogic.checkForGameOver(this.state.board, 1);
+        
+        if (this.state.gameOver != isGameOver) {
+            this.setState({gameOver: isGameOver})
         }
     }
 
