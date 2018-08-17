@@ -11,3 +11,4 @@
 @for $size from 2 to 10 {
     @include setBoardSizeClass($size)
 }
+

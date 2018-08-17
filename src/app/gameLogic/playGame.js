@@ -4,11 +4,11 @@ const playGame = (board, i) => {
         score: 0
     }  
 
-    if (board.getChainfromID(i).size > 1) {
-        let value = board.getValueOfId(i);
-        round.score = value * board.getChainfromID(i).size;
+    if (board.getChainFromID(i).size > 1) {
+        let value = board.getValueOfID(i);
+        round.score = value * board.getChainFromID(i).size;
     }
-    board.destroyChainfromID(i)
+    board.destroyChainFromID(i)
     return round
 }
 

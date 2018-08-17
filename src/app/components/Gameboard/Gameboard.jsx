@@ -7,9 +7,10 @@ const Gameboard = () =>
     <AppContext.Consumer>
         {(context) => (
             <div className={`board-size-${Math.sqrt(context.state.board.size)}`}>
-                {context.state.boardItterator.map(i => <Square key={i}
+                {context.state.boardItterator.map(i =>
+                 <Square key={i}
                     id={i}
-                    value={context.state.board.getValueOfId(i)}
+                    value={context.state.board.getValueOfID(i)}
                     />)} 
             </div>
         )}
