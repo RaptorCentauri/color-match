@@ -6,8 +6,8 @@ import * as gameLogic from '../gameLogic/index';
 class AppProvider extends React.Component {
     constructor(){
         super();
-        this.numberOfSquares = 25;
-        this.numberOfValues = 6;
+        this.numberOfSquares = 36;
+        this.numberOfValues = 7;
         let gameBoard = new Matrix(this.numberOfSquares);
         let genRandNum = () => Math.floor((Math.random() * (this.numberOfValues - 1)) + 1);
         gameBoard.fillEmptyValues(genRandNum)
