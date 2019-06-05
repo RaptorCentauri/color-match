@@ -1,5 +1,5 @@
 import React from 'react';
-import './Square.scss';
+import './square.scss';
 import { AppContext } from '../../contextAndProvider';
 
 class Square extends React.Component{
