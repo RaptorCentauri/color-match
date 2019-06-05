@@ -1,0 +1,57 @@
+version: 2.1 # use CircleCI 2.1
+
+executors:
+  node-11-executor:
+    docker:
+      - image: circleci/node:11.0
+
+commands:
+  get_pip:
+    description: "install pip"
+    steps:
+      - run: sudo apt-get install python-dev
+      - run: curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+      - run: sudo python get-pip.py
+      - run: pip install --upgrade pip
+  get_aws_cli:
+    description: "install awscli"
+    steps:
+      - run: sudo pip install awscli --upgrade
+  install_npm:
+    description: "Install the latest npm version"
+    steps:
+      - run: 'sudo npm install -g npm@latest'
+  install_dependencies:
+    description: "Install project dependencies"
+    steps:
+      - run: npm install
+  test_code:
+    description: "Test the code"
+    steps:
+      - run: npm test
+  test_coverage:
+    description: "Check the code coverage"
+    steps:
+      - run: npm run coverage
+  build_project:
+    description: "Build the project"
+    steps:
+      - run: npm run build
+  deploy_project:
+    description: "deploy the project"
+    steps:
+      - run: npm run deploy
+
+jobs:
+  build:
+    executor: node-11-executor
+    steps:
+      - checkout
+      - get_pip
+      - get_aws_cli
+      - install_npm
+      - install_dependencies
+      - test_code
+      - test_coverage
+      - build_project
+      - deploy_project

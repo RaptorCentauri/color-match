@@ -6,8 +6,27 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
+    "test": "jest --verbose",
+    "coverage": "jest --coverage && codecov",
     "predeploy": "aws s3 rm s3://color-match.daveleoshilander.com/ --recursive",
     "deploy": "aws s3 sync dist/ s3://color-match.daveleoshilander.com"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "transform": {
+    ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleNameMapper": {
+    "\\.(css|scss|less)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "scss"
+    ]
   },
   "author": "",
   "license": "ISC",
