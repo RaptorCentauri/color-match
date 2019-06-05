@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
-    "test": "jest --verbose",
+    "test": "jest --verbose --passWithNoTests",
     "coverage": "jest --coverage && codecov",
     "predeploy": "aws s3 rm s3://color-match.daveleoshilander.com/ --recursive",
     "deploy": "aws s3 sync dist/ s3://color-match.daveleoshilander.com"
@@ -15,25 +15,25 @@
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
     "transform": {
-    ".(ts|tsx)": "ts-jest"
+      ".(ts|tsx)": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "moduleNameMapper": {
-    "\\.(css|scss|less)$": "identity-obj-proxy"
+      "\\.(css|scss|less)$": "identity-obj-proxy"
     },
     "moduleFileExtensions": [
-    "ts",
-    "tsx",
-    "js",
-    "scss"
+      "ts",
+      "tsx",
+      "js",
+      "scss"
     ]
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "matrix-map": "^1.0.13",
-    "node-sass": "^4.9.3",
-    "npm": "^6.4.0",
+    "node-sass": "^4.12.0",
+    "npm": "^6.9.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
@@ -43,7 +43,9 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "cssnano": "^4.1.4",
-    "sass": "^1.14.1"
+    "cssnano": "^4.1.10",
+    "jest": "^24.8.0",
+    "sass": "^1.14.1",
+    "ts-jest": "^24.0.2"
   }
 }
