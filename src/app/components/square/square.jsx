@@ -26,17 +26,17 @@ class Square extends React.Component{
         return(
             <AppContext.Consumer>
             {(context) => (
-                    <div onClick={context.squareClick.bind(this, this.props.id)} 
+                    <div onClick={context.squareClick.bind(this, this.props.id)}
                     className={` id-${this.props.id} square-style square-color-${this.state.value} square-animate-${this.state.animateClass}`}>
                     </div>
             )}
-    
+
         </AppContext.Consumer>
 
 
 
 
-        
+
         )
     }
 
@@ -45,4 +45,3 @@ class Square extends React.Component{
 
 
 export default Square;
-
