@@ -6,8 +6,8 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
-    "test": "jest --verbose --passWithNoTests",
-    "coverage": "jest --passWithNoTests --coverage && codecov",
+    "test": "jest --verbose",
+    "coverage": "jest --coverage && codecov",
     "predeploy": "aws s3 rm s3://color-match.daveleoshilander.com/ --recursive",
     "deploy": "aws s3 sync dist/ s3://color-match.daveleoshilander.com"
   },
