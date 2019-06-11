@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import './Gameboard.scss';
 import Square from '../Square/Square';
 import  {AppContext} from '../../contextAndProvider';

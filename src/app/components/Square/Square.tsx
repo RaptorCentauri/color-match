@@ -1,9 +1,13 @@
-import React from 'react';
-import './Square.Scss';
+import * as React from 'react';
+import "./Square.scss";
 import { AppContext } from '../../contextAndProvider';
 
+
+//Trying to use hooks
 class Square extends React.Component{
-    constructor(props){
+  state: { value: any; animateClass: string; };
+  props: any;
+    constructor(props: any){
         super(props);
         this.state= {
             value: this.props.value,
@@ -11,7 +15,7 @@ class Square extends React.Component{
         }
     }
 
-    static getDerivedStateFromProps(nextProps, prevState){
+    static getDerivedStateFromProps(nextProps: { value: any; }, _prevState: any){
             if (nextProps.value === null) {
                 return {animateClass: 'destroy'}
             }
@@ -22,15 +26,16 @@ class Square extends React.Component{
         else return null;
     }
 
+
+
     render(){
         return(
-            <AppContext.Consumer>
+          <AppContext.Consumer>
             {(context) => (
                     <div onClick={context.squareClick.bind(this, this.props.id)}
                     className={` id-${this.props.id} square-style square-color-${this.state.value} square-animate-${this.state.animateClass}`}>
                     </div>
             )}
-
         </AppContext.Consumer>
 
 

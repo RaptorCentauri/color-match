@@ -1,9 +1,14 @@
-import React from 'react';
-import AppContext from './AppContext';
+import * as React from 'react';
 import Matrix from 'matrix-map';
 import * as gameLogic from '../gameLogic/index';
+import AppContext from './AppContext';
 
 class AppProvider extends React.Component {
+  numberOfSquares: number;
+  numberOfValues: number;
+  state: { board: any; boardItterator: any; score: number; level: number; gameOver: boolean; };
+  setState: any;
+  props: any;
     constructor(){
         super();
         this.numberOfSquares = 36;
@@ -30,7 +35,7 @@ class AppProvider extends React.Component {
 
     gameOverCheck = () => {
         let isGameOver = gameLogic.checkForGameOver(this.state.board, 1);
-        
+
         if (this.state.gameOver != isGameOver) {
             this.setState({gameOver: isGameOver})
         }
@@ -38,7 +43,7 @@ class AppProvider extends React.Component {
 
     componentDidUpdate = () => {
         this.nextLevelCheck();
-        this.gameOverCheck();  
+        this.gameOverCheck();
     }
 
     render() {
@@ -65,7 +70,7 @@ class AppProvider extends React.Component {
 
                     this.setState({score: this.state.score + round.score})
                 },
-                
+
                 }}>
                 {this.props.children}
             </AppContext.Provider>

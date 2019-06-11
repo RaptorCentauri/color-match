@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import { render } from 'react-dom';
 import './index.scss'
-import {AppContext, AppProvider} from './contextAndProvider/index.js'
-import {Titlebar, Gameboard, Gameover} from './components/index.js'
+import {AppContext, AppProvider} from './contextAndProvider'
+import {Titlebar, Gameboard, Gameover} from './components'
 
 class App extends React.Component {
     render() {
