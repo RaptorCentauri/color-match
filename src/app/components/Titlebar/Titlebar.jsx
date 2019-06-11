@@ -2,9 +2,9 @@ import React from 'react';
 import './Titlebar.scss';
 import { AppContext } from '../../contextAndProvider';
 
-const Titlebar = (props) => 
+const Titlebar = (props) =>
 <div className={`titlebar-style`}>
-    <div className={`title`}>Color Match</div>
+    <div className={`title`}>Color Match HOOKS</div>
     <AppContext.Consumer>
         {(context) => (
                 <div className={`score-style`}>
@@ -16,4 +16,3 @@ const Titlebar = (props) =>
 </div>
 
 export default Titlebar;
-
