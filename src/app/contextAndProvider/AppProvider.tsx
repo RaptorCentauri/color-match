@@ -3,6 +3,15 @@ import Matrix from 'matrix-map';
 import * as gameLogic from '../gameLogic/index';
 import AppContext from './AppContext';
 
+
+// export const AppProvider = ({reducer, initialState, children}) => (
+//   <AppContext.Provider>
+//     {children}
+//   </AppContext.Provider>
+// )
+//
+// export const useAppValue = () => React.useContext(AppContext)
+
 class AppProvider extends React.Component {
   numberOfSquares: number;
   numberOfValues: number;
