@@ -2,7 +2,6 @@ import * as React from 'react';
 import "./Square.scss";
 import { AppContext } from '../../contextAndProvider';
 
-
 //Trying to use hooks
 class Square extends React.Component{
   state: { value: any; animateClass: string; };
