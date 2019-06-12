@@ -27,8 +27,4 @@ const App = () => {
 
 
 
-
-
-
-
 render(<AppProvider><App /></AppProvider>, window.document.getElementById('root'));
