@@ -12,7 +12,6 @@ const Square = ({value, id}) => {
       value ? setAnimateClass('drop') : setAnimateClass('destroy')
     })
 
-
     return(
         <div onClick={squareClick.bind(this, id)}
         className={`id-${id} square-style square-color-${value} square-animate-${animateClass}`}>
