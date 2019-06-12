@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import './Gameover.scss';
 import { AppContext } from '../../contextAndProvider';
 
-const Gameover = (props) => 
+const Gameover = (props) =>
 <div className={`Gameover-style`}>
     GAME OVER
     <AppContext.Consumer>
@@ -13,4 +13,3 @@ const Gameover = (props) =>
 </div>
 
 export default Gameover;
-

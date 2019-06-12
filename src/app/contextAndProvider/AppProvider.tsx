@@ -1,9 +1,13 @@
 import * as React from 'react';
 import Matrix from 'matrix-map';
 import * as gameLogic from '../gameLogic/index';
+<<<<<<< HEAD:src/app/contextAndProvider/AppProvider.tsx
 import {AppContext} from './AppContext';
 
 // const AppContext = React.createContext();
+=======
+import AppContext from './AppContext';
+>>>>>>> 4dc246ea34d3cade85f8448249d4eb6f19e4ba45:src/app/contextAndProvider/AppProvider.tsx
 
 class AppProvider extends React.Component {
   numberOfSquares: number;

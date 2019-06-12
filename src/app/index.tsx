@@ -4,88 +4,25 @@ import './index.scss'
 import {AppContext, AppProvider} from './contextAndProvider'
 import {Titlebar, Gameboard, Gameover} from './components'
 
-// import Matrix from 'matrix-map';
-//
-//
-// const App = () => {
-//   let numberOfSquares = 36;
-//   let numberOfValues = 7;
-//   let gameBoard = new Matrix(numberOfSquares);
-//   let genRandNum = () => Math.floor((Math.random() * (numberOfValues - 1)) + 1);
-//   gameBoard.fillEmptyValues(genRandNum)
-//
-//   const initialState = {
-//     board: gameBoard,
-//     boardItterator: gameBoard.keysAsArray,
-//     score: 0,
-//     level: 1,
-//     gameOver: false,
-//   }
-//
-//
-//
-//
-//
-//
-//   return(
-//     <AppProvider>
-//       <Titlebar initialState={initialState}/>
-//       <div className={`board-frame`}>
-//           {state.gameOver === true ?  <Gameover /> : false}
-//           <Gameboard />
-//       </div>
-//     </AppProvider>
-//   )
-// }
-
-
-const App = () => {
-  const context = React.useContext(AppContext);
-
-  React.useEffect(()=>{
-    console.log(context)
-  },[])
-
-  return (
-      // <AppProvider>
-      <div className='App'>
-          {/* <Titlebar /> */}
-          {/* <AppContext.Consumer> */}
-              {/* {(context) => ( */}
-                      <div className={`board-frame`}>
-                          {/* {context.state.gameOver === true ?  <Gameover /> : false} */}
-                          {/* <Gameboard /> */}
-                      </div>
-              {/* )} */}
-          {/* </AppContext.Consumer> */}
-      </div>
-      // </AppProvider>
-  );
-
-
-
+class App extends React.Component {
+    render() {
+        return (
+            <AppProvider>
+            <div className='App'>
+                <Titlebar />
+                <AppContext.Consumer>
+                    {(context) => (
+                            <div className={`board-frame`}>
+                                {context.state.gameOver === true ?  <Gameover /> : false}
+                                <Gameboard />
+                            </div>
+                    )}
+                </AppContext.Consumer>
+            </div>
+            </AppProvider>
+        );
+    }
 }
-
-
-// class App extends React.Component {
-//     render() {
-        // return (
-        //     <AppProvider>
-        //     <div className='App'>
-        //         <Titlebar />
-        //         <AppContext.Consumer>
-        //             {(context) => (
-        //                     <div className={`board-frame`}>
-        //                         {context.state.gameOver === true ?  <Gameover /> : false}
-        //                         <Gameboard />
-        //                     </div>
-        //             )}
-        //         </AppContext.Consumer>
-        //     </div>
-        //     </AppProvider>
-        // );
-//     }
-// }
 
 
 render(<App />, window.document.getElementById('root'));
