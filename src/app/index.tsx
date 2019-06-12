@@ -4,25 +4,31 @@ import './index.scss'
 import {AppContext, AppProvider} from './contextAndProvider'
 import {Titlebar, Gameboard, Gameover} from './components'
 
-class App extends React.Component {
-    render() {
-        return (
-            <AppProvider>
-            <div className='App'>
-                <Titlebar />
-                <AppContext.Consumer>
-                    {(context) => (
-                            <div className={`board-frame`}>
-                                {context.state.gameOver === true ?  <Gameover /> : false}
-                                <Gameboard />
-                            </div>
-                    )}
-                </AppContext.Consumer>
-            </div>
-            </AppProvider>
-        );
-    }
+
+
+const App = () => {
+  const context = React.useContext(AppContext)
+
+  React.useEffect(() => {
+      console.log('effect use', context)
+  }, [])
+
+
+  return(
+        <div className='App'>
+            <Titlebar />
+              <div className={`board-frame`}>
+                  {context.state.gameOver && <Gameover />}
+                  <Gameboard />
+              </div>
+        </div>
+  )
 }
 
 
-render(<App />, window.document.getElementById('root'));
+
+
+
+
+
+render(<AppProvider><App /></AppProvider>, window.document.getElementById('root'));
