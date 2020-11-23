@@ -8,7 +8,7 @@ class App extends React.Component {
     render() {
         return (
             <AppProvider>
-            <div className='App'>
+            <color-match class='App'>
                 <Titlebar />
                 <AppContext.Consumer>
                     {(context) => (
@@ -18,7 +18,7 @@ class App extends React.Component {
                             </board-frame>
                     )}
                 </AppContext.Consumer>
-            </div>
+            </color-match>
             </AppProvider>
         );
     }
