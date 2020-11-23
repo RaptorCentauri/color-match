@@ -3,16 +3,16 @@ import './Titlebar.scss';
 import { AppContext } from '../../contextAndProvider';
 
 const Titlebar = (props) =>
-<div className={`titlebar-style`}>
-    <div className={`title`}>Color Match</div>
+<title-bar class={`titlebar-style`}>
+    <title-name class={`title`}>Color Match</title-name>
     <AppContext.Consumer>
         {(context) => (
-                <div className={`score-style`}>
-                    <div className={`titleGroup`}><div className={`titleLabel`}>Score:</div> {context.state.score}</div>
-                    <div className={`titleGroup`}><div className={`titleLabel`}>Level:</div> {context.state.level}</div>
-                </div>
+                <score-box class={`score-style`}>
+                    <current-score class={`titleGroup`}>Score: {context.state.score}</current-score>
+                    <current-level class={`titleGroup`}>Level: {context.state.level}</current-level>
+                </score-box>
         )}
     </AppContext.Consumer>
-</div>
+</title-bar>
 
 export default Titlebar;
