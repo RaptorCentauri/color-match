@@ -14,6 +14,9 @@
     z-index: 1;
 
     .play-again-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
         background: none;
         font-size: 0.25em;
