@@ -7,6 +7,9 @@ declare namespace JSX {
         'score-box': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         'current-score': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         'current-level': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+        'game-over': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+        'play-again-btn': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+
 
 
 
