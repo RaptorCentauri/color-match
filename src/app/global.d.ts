@@ -9,6 +9,7 @@ declare namespace JSX {
         'current-level': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         'game-over': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         'play-again-btn': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+        'board-frame': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
 
 
 

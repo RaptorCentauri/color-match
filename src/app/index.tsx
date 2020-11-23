@@ -12,10 +12,10 @@ class App extends React.Component {
                 <Titlebar />
                 <AppContext.Consumer>
                     {(context) => (
-                            <div className={`board-frame`}>
+                            <board-frame class={`board-frame`}>
                                 {context.state.gameOver === true ?  <Gameover /> : false}
                                 <Gameboard />
-                            </div>
+                            </board-frame>
                     )}
                 </AppContext.Consumer>
             </div>
