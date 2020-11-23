@@ -24,15 +24,13 @@ class Square extends React.Component{
         else return null;
     }
 
-
-
     render(){
         return(
           <AppContext.Consumer>
             {(context) => (
-                    <div onClick={context.squareClick.bind(this, this.props.id)}
-                    className={` id-${this.props.id} square-style square-color-${this.state.value} square-animate-${this.state.animateClass}`}>
-                    </div>
+                <colored-square onClick={context.squareClick.bind(this, this.props.id)}
+                    class={`id-${this.props.id} square-style square-color-${this.state.value} square-animate-${this.state.animateClass}`}>
+                </colored-square> 
             )}
         </AppContext.Consumer>
 
