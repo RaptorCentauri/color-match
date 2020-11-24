@@ -4,14 +4,10 @@ import * as gameLogic from '../gameLogic/index';
 import AppContext from './AppContext';
 
 const AppProvider = props => {
-    const numberOfSquares = 25;
-    const numberOfValues = 7;
-    let gameBoard = new Matrix(numberOfSquares);
-    let genRandNum = () => Math.floor((Math.random() * (numberOfValues - 1)) + 1);
-    gameBoard.fillEmptyValues(genRandNum)
+    let gameBoard = new Matrix(gameLogic.numberOfSquares);
+    gameBoard.fillEmptyValues(gameLogic.randomValues)
 
     const [board, setBoard] = React.useState(gameBoard)
-    const [boardItterator, setBoardItterator] = React.useState(gameBoard.keysAsArray)
     const [score, setScore] = React.useState(0);
     const [level, setLevel] = React.useState(1);
     const [gameOver, setGameOver] = React.useState(false);
@@ -25,12 +21,12 @@ const AppProvider = props => {
     } 
 
     const gameOverCheck = () => {        
-        let isGameOver = gameLogic.checkForGameOver(board, 1);
+        let isGameOver = gameLogic.checkForGameOver(board);
         setGameOver(isGameOver)
     }
 
     const playAgain = () => {
-        let reset = gameLogic.resetBoard(board, numberOfValues);
+        let reset = gameLogic.resetBoard(board, gameLogic.numberOfValues);
         setBoard(reset.board)
         setLevel(1)
         setScore(0)
@@ -41,7 +37,7 @@ const AppProvider = props => {
         let round = gameLogic.playGame(board, i);
         setBoard(round.board);
 
-        let drop = gameLogic.dropSquares(board, numberOfValues);
+        let drop = gameLogic.dropSquares(board, gameLogic.numberOfValues);
         setBoard(drop.board)
 
         setScore(score + round.score)
@@ -58,7 +54,6 @@ const AppProvider = props => {
                 score:score,
                 level: level,
                 board: board,
-                boardItterator: boardItterator,
                 gameOver: gameOver,
                 playAgain: playAgain,
                 squareClick: squareClick
