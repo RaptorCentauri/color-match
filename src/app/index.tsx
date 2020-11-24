@@ -4,8 +4,11 @@ import './index.scss'
 import {AppContext, AppProvider} from './contextAndProvider'
 import {Titlebar, Gameboard, Gameover} from './components'
 
-class App extends React.Component {
-    render() {
+const App = (props) => {
+    React.useEffect(()=>{
+        
+    })
+
         return (
             <AppProvider>
             <color-match class='App'>
@@ -13,7 +16,7 @@ class App extends React.Component {
                 <AppContext.Consumer>
                     {(context) => (
                             <board-frame class={`board-frame`}>
-                                {context.gameOver === true ?  <Gameover /> : false}
+                                {context.gameOver && <Gameover />}
                                 <Gameboard />
                             </board-frame>
                     )}
@@ -21,7 +24,6 @@ class App extends React.Component {
             </color-match>
             </AppProvider>
         );
-    }
 }
 
 
