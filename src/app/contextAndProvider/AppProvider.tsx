@@ -3,22 +3,6 @@ import Matrix from 'matrix-map';
 import * as gameLogic from '../gameLogic/index';
 import AppContext from './AppContext';
 
-
-// const changeBoard = (board, state) => {
-//     const updatedBoard = [...state.board];
-
-//     return {...state, board: updatedBoard}
-// }
-
-// const UPDATE_BOARD = 'UPDATE_BOARD';
-// const boardReducer = (state, action) => {
-//     switch(action.type){
-//         case UPDATE_BOARD:
-//             return
-//     }
-// }
-
-
 const AppProvider = props => {
     const numberOfSquares = 25;
     const numberOfValues = 7;
