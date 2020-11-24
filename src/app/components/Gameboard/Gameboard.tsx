@@ -6,11 +6,11 @@ import  {AppContext} from '../../contextAndProvider';
 const Gameboard = () =>
     <AppContext.Consumer>
         {(context) => (
-          <game-board class={`board-size-${Math.sqrt(context.state.board.size)}`}>
-              {context.state.boardItterator.map(i =>
+          <game-board class={`board-size-${Math.sqrt(context.board.size)}`}>
+              {context.boardItterator.map(i =>
                <Square key={i}
                   id={i}
-                  value={context.state.board.getValueOfID(i)}
+                  value={context.board.getValueOfID(i)}
                   />
                 )}
           </game-board>

@@ -13,7 +13,7 @@ class App extends React.Component {
                 <AppContext.Consumer>
                     {(context) => (
                             <board-frame class={`board-frame`}>
-                                {context.state.gameOver === true ?  <Gameover /> : false}
+                                {context.gameOver === true ?  <Gameover /> : false}
                                 <Gameboard />
                             </board-frame>
                     )}
