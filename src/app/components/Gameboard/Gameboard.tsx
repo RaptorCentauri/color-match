@@ -3,9 +3,11 @@ import './Gameboard.scss';
 import Square from '../Square/Square';
 import  {AppContext} from '../../contextAndProvider';
 
-const Gameboard = () =>
-    <AppContext.Consumer>
-        {(context) => (
+const Gameboard = () =>{
+
+  const context=React.useContext(AppContext)
+
+return(
           <game-board class={`board-size-${Math.sqrt(context.board.size)}`}>
         {context.board.keysAsArray.map(i =>
         //@ts-ignore
@@ -15,8 +17,9 @@ const Gameboard = () =>
                   />
                 )}
           </game-board>
-        )}
-    </AppContext.Consumer>
+)
+        }
+
 
 
 export default Gameboard;
