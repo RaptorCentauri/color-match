@@ -3,7 +3,7 @@ import "./Square.scss";
 import { AppContext } from '../../contextAndProvider';
 
 const Square = ({value,id}) => {
-    const [animateClass, setAnimateClass] = React.useState('initial')
+    const [animateClass, setAnimateClass] = React.useState('inital');
 
     React.useEffect(()=>{
         value ? setAnimateClass('drop') : setAnimateClass('destroy')
@@ -13,7 +13,7 @@ const Square = ({value,id}) => {
         <AppContext.Consumer>
             {(context) => (
                 <colored-square onClick={()=>context.squareClick(id)} 
-                    class={`id-${id} square-style square-color-${value} square-animate-${animateClass}`}>
+                    class={`square-color-${value} square-animate-${animateClass}`}>
                 </colored-square>
             )}
         </AppContext.Consumer>
