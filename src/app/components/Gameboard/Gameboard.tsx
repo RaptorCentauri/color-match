@@ -8,6 +8,7 @@ const Gameboard = () =>
         {(context) => (
           <game-board class={`board-size-${Math.sqrt(context.board.size)}`}>
         {context.board.keysAsArray.map(i =>
+        //@ts-ignore
                <Square key={i}
                   id={i}
                   value={context.board.getValueOfID(i)}
