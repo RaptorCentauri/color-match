@@ -6,7 +6,7 @@ const Square = ({value,id}) => {
     const [animateClass, setAnimateClass] = React.useState('inital');
 
     React.useEffect(()=>{
-        value ? setAnimateClass('drop') : setAnimateClass('destroy')
+        value ? setAnimateClass('initial') : setAnimateClass('destroy')
     })
 
     return (

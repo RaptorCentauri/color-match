@@ -3,11 +3,11 @@ import './Gameover.scss';
 import { AppContext } from '../../contextAndProvider';
 
 const Gameover = (props) =>
-<game-over class={`Gameover-style`}>
+<game-over>
     GAME OVER
     <AppContext.Consumer>
         {(context) => (
-                <play-again-btn class={`play-again-button`} onClick={context.playAgain}>Play Again?</play-again-btn>
+                <play-again-btn onClick={context.playAgain}>Play Again?</play-again-btn>
         )}
     </AppContext.Consumer>
 </game-over>

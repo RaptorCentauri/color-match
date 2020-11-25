@@ -1,6 +1,4 @@
-
-
-.Gameover-style{
+game-over{
     color: white;
     font-size: 1.5em;
     background-color: rgba(59, 59, 59, 0.877);
@@ -13,7 +11,7 @@
     text-shadow: 5px 4px rgb(0, 0, 0);
     z-index: 1;
 
-    .play-again-button{
+    play-again-btn{
         display: flex;
         justify-content: center;
         align-items: center;
