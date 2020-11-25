@@ -10,7 +10,7 @@ const AppProvider = props => {
     const [board, setBoard] = React.useState(gameBoard)
     const [score, setScore] = React.useState(0);
     const [level, setLevel] = React.useState(1);
-    const [gameOver, setGameOver] = React.useState(false);
+    const [gameover, setGameover] = React.useState(false);
     const [gameRound, setGameRound] = React.useState(1);
 
     const nextLevelCheck = () => {
@@ -22,8 +22,8 @@ const AppProvider = props => {
     } 
 
     const gameOverCheck = () => {        
-        let isGameOver = gameLogic.checkForGameOver(board);
-        setGameOver(isGameOver)
+        let isGameover = gameLogic.checkForGameOver(board);
+        setGameover(isGameover)
     }
 
     const playAgain = () => {
@@ -31,7 +31,7 @@ const AppProvider = props => {
         setBoard(reset.board)
         setLevel(1)
         setScore(0)
-        setGameOver(false)
+        setGameover(false)
     }
 
     const squareClick = (i) => {        
@@ -60,7 +60,7 @@ const AppProvider = props => {
                 score:score,
                 level: level,
                 board: board,
-                gameOver: gameOver,
+                gameover: gameover,
                 playAgain: playAgain,
                 squareClick: squareClick
             }}>

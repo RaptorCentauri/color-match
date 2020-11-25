@@ -4,7 +4,7 @@ import { AppContext } from '../../contextAndProvider';
 
 const Square = ({value,id}) => {
 
-    const context=React.useContext(AppContext)
+    const { squareClick}=React.useContext(AppContext)
     const [animateClass, setAnimateClass] = React.useState('inital');
 
     React.useEffect(()=>{
@@ -12,7 +12,7 @@ const Square = ({value,id}) => {
     })
 
     return (
-                <colored-square onClick={()=>context.squareClick(id)} 
+                <colored-square onClick={()=>squareClick(id)} 
                     class={`square-color-${value} square-animate-${animateClass}`}>
                 </colored-square>
     )

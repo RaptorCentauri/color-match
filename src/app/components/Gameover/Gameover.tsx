@@ -3,11 +3,11 @@ import './Gameover.scss';
 import { AppContext } from '../../contextAndProvider';
 
 const Gameover = (props) =>{
-    const context = React.useContext(AppContext)
+    const {playAgain} = React.useContext(AppContext)
 return(
 <game-over>
     GAME OVER
-    <play-again-btn onClick={context.playAgain}>Play Again?</play-again-btn>
+    <play-again-btn onClick={playAgain}>Play Again?</play-again-btn>
 </game-over>
 )
 }

@@ -5,11 +5,11 @@ import {Gameover} from '../'
 
 const Boardframe = (props) => {
 
-    const context = React.useContext(AppContext)
-
+    const {gameover} = React.useContext(AppContext)
+    
     return (
         <board-frame>
-            {context.gameOver && <Gameover />}
+            {gameover && <Gameover />}
             {props.children}
         </board-frame>
     )
