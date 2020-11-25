@@ -1,4 +1,4 @@
-.titlebar-style-new{
+title-bar{
     background: linear-gradient( rgb(196, 196, 196), rgb(73, 73, 73));
     border-bottom: 3px solid rgb(73, 73, 73);
     box-shadow: inset 0px -10px 10px -10px rgb(255, 255, 255);
@@ -8,52 +8,7 @@
     justify-content: space-around;
     align-items: center;
 
-    .title{
-        font-size: 2em;
+    title-name{
+        font-size: 1.75em;
     }
-}
-
-.titlebar-style{
-    background: linear-gradient( rgb(196, 196, 196), rgb(73, 73, 73));
-    border-bottom: 3px solid rgb(73, 73, 73);
-    box-shadow: inset 0px -10px 10px -10px rgb(255, 255, 255);
-    width: 100vw;
-    display: grid;
-    grid-template-columns: [empty] 1fr [title] 4fr [score] 1fr;
-    align-items: center;
-
-
-
-    // .score-style{
-    //     grid-column: score;
-    //     justify-self: center;
-    //     // display: flex;
-    //     // justify-content: center;
-    //     // align-items: center;
-    //     // // flex-direction: row;
-
-    //     @media only screen 
-    //     and (max-width : 375px) 
-    //     and (orientation : portrait)  {
-    //         justify-self: end;
-    //         font-size: 1em;
-    //     }
-
-    //     .titleGroup{
-    //         display: flex;
-    //         @media only screen 
-    //         and (max-width : 600px) 
-    //         and (orientation : portrait)  {
-    //             padding-right: 1em;
-    //         }
-    //     }
-
-    //     .titleLabel{
-    //         @media only screen 
-    //         and (max-width : 600px) 
-    //         and (orientation : portrait)  {
-    //             // display: none;
-    //         }
-    //     }
-    // }  
 }
