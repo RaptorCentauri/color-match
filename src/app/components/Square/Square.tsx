@@ -4,7 +4,7 @@ import { AppContext } from '../../contextAndProvider';
 
 const Square = ({value,id}) => {
 
-    const { squareClick}=React.useContext(AppContext)
+    const {squareClick} = React.useContext(AppContext)
     const [animateClass, setAnimateClass] = React.useState('inital');
 
     React.useEffect(()=>{

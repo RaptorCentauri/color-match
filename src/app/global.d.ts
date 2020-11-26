@@ -1,5 +1,10 @@
 import * as React from "react";
 
+declare module 'react' {
+    interface HTMLAttributes<T> {
+        class?: any
+    }
+}
 
 declare global {
     namespace JSX {
@@ -18,3 +23,5 @@ declare global {
         }
     }
 }
+
+

@@ -1,4 +1,4 @@
-const checkForGameOver = (board, i=1) =>{
+const checkForGameOver = (board, i:number=1) =>{
     do {
         if (board.hasEquivalentNeighbors(i)){
             return false
