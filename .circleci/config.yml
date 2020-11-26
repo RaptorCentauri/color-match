@@ -1,9 +1,9 @@
 version: 2.1 # use CircleCI 2.1
 
 executors:
-  node-11-executor:
+  node-15-executor:
     docker:
-      - image: circleci/node:11.0
+      - image: cimg/node:15.3.0
 
 commands:
   get_pip:
