@@ -46,7 +46,7 @@ commands:
 
 jobs:
   build:
-    executor: node-11-executor
+    executor: node-15-executor
     steps:
       - checkout
       - get_pip
