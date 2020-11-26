@@ -19,10 +19,10 @@ commands:
     description: "install awscli"
     steps:
       - run: sudo pip install awscli --upgrade
-  install_npm:
-    description: "Install the latest npm version"
-    steps:
-      - run: 'sudo npm install -g npm@7.0.14'
+  # install_npm:
+  #   description: "Install the latest npm version"
+  #   steps:
+  #     - run: 'sudo npm install -g npm@7.0.14'
   install_dependencies:
     description: "Install project dependencies"
     steps:
@@ -51,7 +51,7 @@ jobs:
       - checkout
       - get_pip
       - get_aws_cli
-      - install_npm
+      # - install_npm
       - install_dependencies
       - test_code
       - test_coverage
