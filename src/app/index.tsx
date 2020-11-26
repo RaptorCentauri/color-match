@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from 'react-dom';
 import './index.scss'
 import {AppProvider} from './contextAndProvider'
-import {Titlebar, Gameboard,Boardframe} from './components'
+import {Titlebar, Gameboard, Boardframe} from './components'
 
 const App = (props) => {
     return (
@@ -16,6 +16,5 @@ const App = (props) => {
         </AppProvider>
     );
 }
-
 
 render(<App />, window.document.getElementById('root'));

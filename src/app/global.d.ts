@@ -13,6 +13,5 @@ declare namespace JSX {
         'play-again-btn': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         'board-frame': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         'color-match': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
-    
     }
 }
