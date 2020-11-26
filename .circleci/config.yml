@@ -22,7 +22,7 @@ commands:
   install_npm:
     description: "Install the latest npm version"
     steps:
-      - run: 'sudo npm install -g npm@latest'
+      - run: 'sudo npm install -g npm@7.0.14'
   install_dependencies:
     description: "Install project dependencies"
     steps:
