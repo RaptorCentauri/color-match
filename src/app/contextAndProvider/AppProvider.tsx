@@ -48,7 +48,6 @@ const AppProvider = props => {
         setScore(score + round.score)
     }
 
-
     React.useEffect(()=>{                
         nextLevelCheck();
         gameOverCheck();        
@@ -57,12 +56,12 @@ const AppProvider = props => {
     return (
         <AppContext.Provider 
             value={{
-                score:score,
-                level: level,
-                board: board,
-                gameover: gameover,
-                playAgain: playAgain,
-                squareClick: squareClick
+                score,
+                level,
+                board,
+                gameover,
+                playAgain,
+                squareClick
             }}>
             {props.children}
         </AppContext.Provider>
