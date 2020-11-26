@@ -19,6 +19,11 @@ commands:
     description: "install awscli"
     steps:
       - run: sudo pip install awscli --upgrade
+  get_codecov:
+    description: "install codecov"
+    steps:
+      - run: sudo pip install codecov
+      
   # install_npm:
   #   description: "Install the latest npm version"
   #   steps:
@@ -51,6 +56,7 @@ jobs:
       - checkout
       - get_pip
       - get_aws_cli
+      - get_codecov
       # - install_npm
       - install_dependencies
       - test_code
