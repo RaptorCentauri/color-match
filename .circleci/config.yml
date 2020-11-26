@@ -3,7 +3,7 @@ version: 2.1 # use CircleCI 2.1
 executors:
   node-15-executor:
     docker:
-      - image: circleci/node:15.3.0
+      - image: circleci/node:15.2.0
 
 commands:
   get_pip:
@@ -22,7 +22,7 @@ commands:
   install_npm:
     description: "Install the latest npm version"
     steps:
-      - run: 'sudo npm install -g npm'
+      - run: 'sudo npm install -g npm@latest'
   install_dependencies:
     description: "Install project dependencies"
     steps:
