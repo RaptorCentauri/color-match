@@ -4,11 +4,11 @@
         align-items: center;
         grid-row: gameBoard;
         justify-self: center;
-        background-image: radial-gradient(rgb(68, 68, 68), rgb(201, 223, 243));
-        padding: 7.5px; 
+        background-image: radial-gradient(#888888 71.01%, #e7e7e7);
+        padding: 3.5px; 
         box-shadow: inset 0 0 10px rgb(0, 0, 0);
-        width: 50vw;
-        height: 50vw;
+        width: 65vw;
+        height: 65vw;
 
         @media only screen 
         and (max-width : 420px) 
@@ -18,3 +18,5 @@
             align-self: start;
          }
     }
+
+  
